@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 200px;
+    margin-top: 10px;
+}
+
+a {
+    margin-top: 20px;
+    display: inline-block;
+    color: blue;
+    text-decoration: underline;
+}
