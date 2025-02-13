@@ -20,5 +20,6 @@ def web_scrapping_global(producto):
     #Mostramos el resultado
     #print(json.dumps(resultados, indent=2, ensure_ascii=False))
 
+
 # if __name__ == "__main__":
 #     web_scrapping_global("mesa salón")
