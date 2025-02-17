@@ -66,15 +66,13 @@ def web_scrapping_conforama_tipo1(busqueda):
             print("No se encontraron productos relacionados.")
 
     except Exception as e:
-        print(f"Error al cargar los productos de Conforama (Función 1)")
+        print(f"Error al cargar los productos de Conforama (Función 1): {type(e).__name__}")
 
     finally:
         driver.quit()
     
     #Devolvemos los resultados obtenidos de la búsqueda
     return resultados
-
-import traceback
 
 def web_scrapping_conforama_tipo2(busqueda):
 
@@ -136,8 +134,6 @@ def web_scrapping_conforama_tipo2(busqueda):
 
     except Exception as e:
         print(f"Error al cargar los productos de Conforama (Función 2): {type(e).__name__}")
-        print("Stacktrace completo:")
-        traceback.print_exc() 
 
     finally:
         driver.quit()
@@ -145,6 +141,6 @@ def web_scrapping_conforama_tipo2(busqueda):
     #Devolvemos los resultados obtenidos de la búsqueda
     return resultados
 
-# if __name__ == "__main__":
-#     #web_scrapping_conforama_tipo1("mesa salón")
-#     web_scrapping_conforama_tipo2("percha")
+if __name__ == "__main__":
+    web_scrapping_conforama_tipo1("ducha")
+    web_scrapping_conforama_tipo2("ducha")

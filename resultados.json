@@ -1,506 +1,156 @@
 [
     {
-        "nombre": "Silla (ADDE)",
-        "precio": "12,99€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/adde-silla-blanco__0728280_pe736170_s5.jpg?f=xxs",
+        "nombre": "Ducha a ras con mampara y plato, 90x120x203 cm (OPPEJEN / FOTINGEN)",
+        "precio": "428€",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/oppejen-fotingen-ducha-ras-con-mampara-plato__1075452_pe856494_s5.jpg?f=xxs",
         "tienda_origen": "IKEA",
         "id": 1
     },
     {
-        "nombre": "Silla (ÖSTANÖ)",
-        "precio": "19€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/ostano-silla-negro-remmarn-gris-oscuro__1119282_pe873451_s5.jpg?f=xxs",
+        "nombre": "Ducha fija móvil y alternador (BROGRUND)",
+        "precio": "129€",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/brogrund-ducha-fija-movil-alternador-cromado__0755266_pe748334_s5.jpg?f=xxs",
         "tienda_origen": "IKEA",
         "id": 2
     },
     {
-        "nombre": "Silla (KARLPETTER)",
-        "precio": "50€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/karlpetter-silla-gunnared-verde-claro-sefast-blanco__1106897_pe868859_s5.jpg?f=xxs",
+        "nombre": "Barra regulable de pared (VALLAMOSSE)",
+        "precio": "24,99€",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/vallamosse-barra-regulable-pared-cromado__0755273_pe748317_s5.jpg?f=xxs",
         "tienda_origen": "IKEA",
         "id": 3
     },
     {
-        "nombre": "Silla (NORDMYRA)",
-        "precio": "35€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/nordmyra-silla-blanco-abedul__1245701_pe921728_s5.jpg?f=xxs",
+        "nombre": "Set ducha mezclador/termostato (BROGRUND)",
+        "precio": "199€",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/brogrund-set-ducha-mezclador-termostato-cromado__0755271_pe748315_s5.jpg?f=xxs",
         "tienda_origen": "IKEA",
         "id": 4
     },
     {
-        "nombre": "Silla (STEFAN)",
-        "precio": "29€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/stefan-silla-blanco__1322933_pe942332_s5.jpg?f=xxs",
+        "nombre": "Estantería de esquina para pared, 19x58 cm (BROGRUND)",
+        "precio": "19,99€",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/brogrund-estanteria-esquina-pared-acero-inoxidable__0749048_pe745411_s5.jpg?f=xxs",
         "tienda_origen": "IKEA",
         "id": 5
     },
     {
-        "nombre": "Silla (GRÖNSTA)",
-        "precio": "59€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/gronsta-silla-interior-exterior-blanco__1243689_pe920720_s5.jpg?f=xxs",
+        "nombre": "Ducha 5 chorros (BROGRUND)",
+        "precio": "19,99€",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/brogrund-ducha-5-chorros-cromado__0754998_pe748201_s5.jpg?f=xxs",
         "tienda_origen": "IKEA",
         "id": 6
     },
     {
-        "nombre": "Silla (TOSSBERG)",
-        "precio": "129€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/tossberg-silla-metal-blanco-gunnared-beige__1142158_pe881185_s5.jpg?f=xxs",
+        "nombre": "Set ducha mezclador/termostato (VOXNAN)",
+        "precio": "199€",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/voxnan-set-ducha-mezclador-termostato-cromado__0755281_pe748333_s5.jpg?f=xxs",
         "tienda_origen": "IKEA",
         "id": 7
     },
     {
-        "nombre": "Silla (TEODORES)",
-        "precio": "30€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/teodores-silla-blanco__0727344_pe735616_s5.jpg?f=xxs",
+        "nombre": "Ducha de esquina con bandeja, 90x90x205 cm (OPPEJEN / FOTINGEN)",
+        "precio": "557€",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/oppejen-fotingen-ducha-esquina-con-bandeja__0854524_pe780653_s5.jpg?f=xxs",
         "tienda_origen": "IKEA",
         "id": 8
     },
     {
-        "nombre": "Silla (EKEDALEN)",
-        "precio": "49€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/ekedalen-silla-blanco-orrsta-gris-claro__0728310_pe736178_s5.jpg?f=xxs",
+        "nombre": "Ducha fija móvil y alternador (VOXNAN)",
+        "precio": "129€",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/voxnan-ducha-fija-movil-alternador-cromado__0755276_pe748320_s5.jpg?f=xxs",
         "tienda_origen": "IKEA",
         "id": 9
     },
     {
-        "nombre": "Silla (PÅBODA)",
-        "precio": "25€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/paboda-silla-negro-remmarn-gris-oscuro__1169561_pe892496_s5.jpg?f=xxs",
+        "nombre": "Ducha de esquina, 86x86x202 cm (OPPEJEN)",
+        "precio": "358€",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/oppejen-ducha-esquina__0854510_pe780652_s5.jpg?f=xxs",
         "tienda_origen": "IKEA",
         "id": 10
     },
     {
-        "nombre": "Silla (KRYLBO)",
-        "precio": "75€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/krylbo-silla-tonerud-beige-oscuro__1208495_pe908606_s5.jpg?f=xxs",
+        "nombre": "Mampara ducha, 84x199 cm (OPPEJEN)",
+        "precio": "179€",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/oppejen-mampara-ducha-vidrio__0844309_pe778956_s5.jpg?f=xxs",
         "tienda_origen": "IKEA",
         "id": 11
     },
     {
-        "nombre": "Silla (BERGMUND)",
-        "precio": "75€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/bergmund-silla-blanco-gunnared-gris__0926632_pe789415_s5.jpg?f=xxs",
+        "nombre": "Estante para ducha, 25x6 cm (VOXNAN)",
+        "precio": "19,99€",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/voxnan-estante-ducha-cromado__0710464_pe727565_s5.jpg?f=xxs",
         "tienda_origen": "IKEA",
         "id": 12
     },
     {
-        "nombre": "Silla (ODGER)",
-        "precio": "69€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/odger-silla-antracita__0739669_pe741828_s5.jpg?f=xxs",
+        "nombre": "Cabezal ducha 1 chorro (LILLREVET)",
+        "precio": "2,99€",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/lillrevet-cabezal-ducha-1-chorro-blanco__0755000_pe748203_s5.jpg?f=xxs",
         "tienda_origen": "IKEA",
         "id": 13
     },
     {
-        "nombre": "Silla (INGOLF)",
-        "precio": "49€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/ingolf-silla-blanco__0728152_pe736113_s5.jpg?f=xxs",
+        "nombre": "Plato de ducha, 120x90 cm (FOTINGEN)",
+        "precio": "249€",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/fotingen-plato-ducha__0833137_pe778679_s5.jpg?f=xxs",
         "tienda_origen": "IKEA",
         "id": 14
     },
     {
-        "nombre": "Silla (JANINGE)",
-        "precio": "39€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/janinge-silla-blanco__0728156_pe736116_s5.jpg?f=xxs",
+        "nombre": "Soporte ventosa ducha mano (TISKEN)",
+        "precio": "2,99€",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/tisken-soporte-ventosa-ducha-mano-blanco__0749054_pe745415_s5.jpg?f=xxs",
         "tienda_origen": "IKEA",
         "id": 15
     },
     {
-        "nombre": "Silla (LISABO)",
-        "precio": "49€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/lisabo-silla-fresno__0786549_pe763015_s5.jpg?f=xxs",
+        "nombre": "Tubo flexible para ducha (KOLSJÖN)",
+        "precio": "14,99€",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/kolsjon-tubo-flexible-ducha-cromado__0755436_pe748415_s5.jpg?f=xxs",
         "tienda_origen": "IKEA",
         "id": 16
     },
     {
-        "nombre": "Silla (LIDÅS)",
-        "precio": "40€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/lidas-silla-blanco-sefast-blanco__1106351_pe868690_s5.jpg?f=xxs",
+        "nombre": "Estante para ducha, 25x4 cm (BROGRUND)",
+        "precio": "19,99€",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/brogrund-estante-ducha-cromado__0710488_pe727581_s5.jpg?f=xxs",
         "tienda_origen": "IKEA",
         "id": 17
     },
     {
-        "nombre": "Silla (HAUGA)",
-        "precio": "25€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/hauga-silla-blanco__1336852_pe947477_s5.jpg?f=xxs",
+        "nombre": "Mezclador termostato ducha, 150 mm (VALLAMOSSE)",
+        "precio": "99,99€",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/vallamosse-mezclador-termostato-ducha-cromado__0755426_pe748412_s5.jpg?f=xxs",
         "tienda_origen": "IKEA",
         "id": 18
     },
     {
-        "nombre": "Silla con reposabrazos (GRÖNSTA)",
-        "precio": "69€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/gronsta-silla-con-reposabrazos-blanco__1243810_pe920959_s5.jpg?f=xxs",
+        "nombre": "Mampara ducha con 2 puertas/bandeja, 90x90x205 cm (OPPEJEN / FOTINGEN)",
+        "precio": "557€",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/oppejen-fotingen-mampara-ducha-con-2-puertas-bandeja__0854525_pe780655_s5.jpg?f=xxs",
         "tienda_origen": "IKEA",
         "id": 19
     },
     {
-        "nombre": "Silla (SKOGSTA)",
-        "precio": "59€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/skogsta-silla-acacia__1343430_pe949583_s5.jpg?f=xxs",
+        "nombre": "Estante para ducha, 24x6 cm (KALKGRUND)",
+        "precio": "19,99€",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/kalkgrund-estante-ducha-cromado__0710485_pe727582_s5.jpg?f=xxs",
         "tienda_origen": "IKEA",
         "id": 20
     },
     {
-        "nombre": "Silla (TOBIAS)",
-        "precio": "69€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/tobias-silla-transparente-cromado__0727342_pe735614_s5.jpg?f=xxs",
+        "nombre": "Cabezal ducha 1 chorro (VALLAMOSSE)",
+        "precio": "9,99€",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/vallamosse-cabezal-ducha-1-chorro-cromado__0755001_pe748207_s5.jpg?f=xxs",
         "tienda_origen": "IKEA",
         "id": 21
     },
     {
-        "nombre": "Silla (SKANSNÄS)",
-        "precio": "89€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/skansnas-silla-haya-clara__1319859_pe941002_s5.jpg?f=xxs",
+        "nombre": "Puerta de ducha, 84x202 cm (OPPEJEN)",
+        "precio": "179€",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/oppejen-puerta-ducha-vidrio__0844308_pe778954_s5.jpg?f=xxs",
         "tienda_origen": "IKEA",
         "id": 22
-    },
-    {
-        "nombre": "Silla (NORDMYRA)",
-        "precio": "35€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/nordmyra-silla-blanco-abedul__1245701_pe921728_s5.jpg?f=xxs",
-        "tienda_origen": "IKEA",
-        "id": 23
-    },
-    {
-        "nombre": "Silla (JANINGE)",
-        "precio": "39€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/janinge-silla-blanco__0728156_pe736116_s5.jpg?f=xxs",
-        "tienda_origen": "IKEA",
-        "id": 24
-    },
-    {
-        "nombre": "Silla (EKEDALEN)",
-        "precio": "196€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/ekedalen-silla-blanco-orrsta-gris-claro__1082706_pe858786_s5.jpg?f=xxs",
-        "tienda_origen": "IKEA",
-        "id": 25
-    },
-    {
-        "nombre": "Silla (INGOLF)",
-        "precio": "49€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/ingolf-silla-blanco__0728152_pe736113_s5.jpg?f=xxs",
-        "tienda_origen": "IKEA",
-        "id": 26
-    },
-    {
-        "nombre": "Silla (LISABO)",
-        "precio": "49€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/lisabo-silla-fresno__0786549_pe763015_s5.jpg?f=xxs",
-        "tienda_origen": "IKEA",
-        "id": 27
-    },
-    {
-        "nombre": "Silla (EKEDALEN)",
-        "precio": "49€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/ekedalen-silla-blanco-orrsta-gris-claro__0728310_pe736178_s5.jpg?f=xxs",
-        "tienda_origen": "IKEA",
-        "id": 28
-    },
-    {
-        "nombre": "Silla (EKEDALEN)",
-        "precio": "49€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/ekedalen-silla-efecto-roble-orrsta-gris-claro__0728309_pe736177_s5.jpg?f=xxs",
-        "tienda_origen": "IKEA",
-        "id": 29
-    },
-    {
-        "nombre": "Silla (INGOLF)",
-        "precio": "65€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/ingolf-silla-blanco-hallarp-beige__0926877_pe789566_s5.jpg?f=xxs",
-        "tienda_origen": "IKEA",
-        "id": 30
-    },
-    {
-        "nombre": "Silla (TOBIAS)",
-        "precio": "69€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/tobias-silla-transparente-cromado__0727342_pe735614_s5.jpg?f=xxs",
-        "tienda_origen": "IKEA",
-        "id": 31
-    },
-    {
-        "nombre": "Silla (ODGER)",
-        "precio": "69€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/odger-silla-antracita__0739669_pe741828_s5.jpg?f=xxs",
-        "tienda_origen": "IKEA",
-        "id": 32
-    },
-    {
-        "nombre": "Silla (ODGER)",
-        "precio": "69€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/odger-silla-blanco-beige__0727334_pe735606_s5.jpg?f=xxs",
-        "tienda_origen": "IKEA",
-        "id": 33
-    },
-    {
-        "nombre": "Silla (TOSSBERG)",
-        "precio": "129€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/tossberg-silla-metal-blanco-gunnared-beige__1142158_pe881185_s5.jpg?f=xxs",
-        "tienda_origen": "IKEA",
-        "id": 34
-    },
-    {
-        "nombre": "Silla (INGOLF)",
-        "precio": "196€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/ingolf-silla-blanco__1082704_pe858783_s5.jpg?f=xxs",
-        "tienda_origen": "IKEA",
-        "id": 35
-    },
-    {
-        "nombre": "Silla (INGOLF)",
-        "precio": "98€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/ingolf-silla-blanco__1082703_pe858784_s5.jpg?f=xxs",
-        "tienda_origen": "IKEA",
-        "id": 36
-    },
-    {
-        "nombre": "Silla (EKEDALEN)",
-        "precio": "98€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/ekedalen-silla-blanco-orrsta-gris-claro__1082705_pe858785_s5.jpg?f=xxs",
-        "tienda_origen": "IKEA",
-        "id": 37
-    },
-    {
-        "nombre": "Silla (ODGER)",
-        "precio": "69€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/odger-silla-rojo__1038449_pe839684_s5.jpg?f=xxs",
-        "tienda_origen": "IKEA",
-        "id": 38
-    },
-    {
-        "nombre": "Silla (LISABO)",
-        "precio": "49€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/lisabo-silla-negro__0786548_pe763014_s5.jpg?f=xxs",
-        "tienda_origen": "IKEA",
-        "id": 39
-    },
-    {
-        "nombre": "Silla (TOBIAS)",
-        "precio": "69€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/tobias-silla-marron-rojizo-cromado__1126419_pe875739_s5.jpg?f=xxs",
-        "tienda_origen": "IKEA",
-        "id": 40
-    },
-    {
-        "nombre": "Silla (TOBIAS)",
-        "precio": "69€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/tobias-silla-gris-cromado__0727325_pe735597_s5.jpg?f=xxs",
-        "tienda_origen": "IKEA",
-        "id": 41
-    },
-    {
-        "nombre": "Silla (INGOLF)",
-        "precio": "65€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/ingolf-silla-tint-envj-nolhaga-beige-grisaceo__0976575_pe813285_s5.jpg?f=xxs",
-        "tienda_origen": "IKEA",
-        "id": 42
-    },
-    {
-        "nombre": "Silla (EKEDALEN)",
-        "precio": "49€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/ekedalen-silla-marron-oscuro-orrsta-gris-claro__0728288_pe736165_s5.jpg?f=xxs",
-        "tienda_origen": "IKEA",
-        "id": 43
-    },
-    {
-        "nombre": "Silla (STOCKHOLM)",
-        "precio": "179€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/stockholm-silla-negro__0572778_pe667595_s5.jpg?f=xxs",
-        "tienda_origen": "IKEA",
-        "id": 44
-    },
-    {
-        "nombre": "Silla (EBBALYCKE)",
-        "precio": "55€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/ebbalycke-silla-idekulla-beige__1243346_pe920576_s5.jpg?f=xxs",
-        "tienda_origen": "IKEA",
-        "id": 45
-    },
-    {
-        "nombre": "Silla (LISABO)",
-        "precio": "69€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/lisabo-silla-fresno-tallmyra-blanco-negro__1243660_pe920705_s5.jpg?f=xxs",
-        "tienda_origen": "IKEA",
-        "id": 46
-    },
-    {
-        "nombre": "Silla (TOSSBERG)",
-        "precio": "129€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/tossberg-silla-metal-negro-gunnared-gris-oscuro__1360003_pe954328_s5.jpg?f=xxs",
-        "tienda_origen": "IKEA",
-        "id": 47
-    },
-    {
-        "nombre": "Silla (LUSTEBO)",
-        "precio": "79€",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/lustebo-silla-viarp-beige-marron__1243646_pe920696_s5.jpg?f=xxs",
-        "tienda_origen": "IKEA",
-        "id": 48
-    },
-    {
-        "nombre": "Pack de 2 unidades silla de cocina CUSHION blanca",
-        "precio": "89,98 €",
-        "url_imagen": "https://medias.conforama.pt/media/260by271/d77b2db5585051ade7d2a21f7bf73a4050132a44_122392_01_PACK_CUSHION.jpg",
-        "tienda_origen": "Conforama",
-        "id": 49
-    },
-    {
-        "nombre": "Silla de comedor BELLA pack 4 unidades color visón",
-        "precio": "259,96 €",
-        "url_imagen": "https://medias.conforama.pt/media/260by271/c978e20843889febbfe0ca59e57d91cdc60e92d8_122473__1_.jpg",
-        "tienda_origen": "Conforama",
-        "id": 50
-    },
-    {
-        "nombre": "Silla de comedor LUIGI pack 4 unidades en ratán y negro",
-        "precio": "319,96 €",
-        "url_imagen": "https://medias.conforama.pt/media/260by271/4c40eaf7c070c7011a04cef7878f2fab9dbcc1df_122429__3_.jpg",
-        "tienda_origen": "Conforama",
-        "id": 51
-    },
-    {
-        "nombre": "Silla GANT tapizada en pu gris",
-        "precio": "49,90 €",
-        "url_imagen": "https://medias.conforama.pt/media/260by271/8a29221646ad47620d9f2a7591c897a745629f49_115420__2_.jpg",
-        "tienda_origen": "Conforama",
-        "id": 52
-    },
-    {
-        "nombre": "Silla comedor giratória gris claro RUBIA",
-        "precio": "139,00 €",
-        "url_imagen": "https://medias.conforama.pt/media/260by271/5572aee9176b777ccee64db05fe7f48273830705_113633__5_.jpg",
-        "tienda_origen": "Conforama",
-        "id": 53
-    },
-    {
-        "nombre": "Silla ANYA pack 4 unidades tapizada en tela beige",
-        "precio": "159,96 €",
-        "url_imagen": "https://medias.conforama.pt/media/260by271/35b1b68f3248a92cd9e29f7df0941999ec9587c3_122422_BEIGE.jpg",
-        "tienda_origen": "Conforama",
-        "id": 54
-    },
-    {
-        "nombre": "Silla ETNA color blanco polipiel",
-        "precio": "29,90 €",
-        "url_imagen": "https://medias.conforama.pt/media/260by271/6cb104189707fa766a1c39d47605ee3ac5fe64f5_366616_01.jpg",
-        "tienda_origen": "Conforama",
-        "id": 55
-    },
-    {
-        "nombre": "Silla en terciopelo LUXURY color negro",
-        "precio": "79,90 €",
-        "url_imagen": "https://medias.conforama.pt/media/260by271/7706210e3a4eb5a6727bb994eba98545fc999a49_397649_01.jpg",
-        "tienda_origen": "Conforama",
-        "id": 56
-    },
-    {
-        "nombre": "Silla de comedor tapizada en tela RITA color blanco",
-        "precio": "49,70 €",
-        "url_imagen": "https://medias.conforama.pt/media/260by271/67055e3cb49c379c18d66890dd8263fc30a89056_114136_DR_313G_white_1_.JPG",
-        "tienda_origen": "Conforama",
-        "id": 57
-    },
-    {
-        "nombre": "Silla de comedor CLICK color blanco",
-        "precio": "26,90 €",
-        "url_imagen": "https://medias.conforama.pt/media/260by271/fec1c2f200714bb1cad49c461d048695cd3f7463_399960_01.jpg",
-        "tienda_origen": "Conforama",
-        "id": 58
-    },
-    {
-        "nombre": "Silla LONDON de terciopelo gris",
-        "precio": "49,90 €",
-        "url_imagen": "https://medias.conforama.pt/media/260by271/7db100ae8b056428bf721d0bb57b418df80d84ff_402680_01.jpg",
-        "tienda_origen": "Conforama",
-        "id": 59
-    },
-    {
-        "nombre": "Silla de comedor VERSALLES medara y blanco",
-        "precio": "69,90 €",
-        "url_imagen": "https://medias.conforama.pt/media/260by271/8991e909cefa73038c2d61be145c871c76963048_371956_01.jpg",
-        "tienda_origen": "Conforama",
-        "id": 60
-    },
-    {
-        "nombre": "Silla de comedor SONIA color gris claro",
-        "precio": "59,90 €",
-        "url_imagen": "https://medias.conforama.pt/media/260by271/f4b33595643b11a187fbbf50cc980c435ca80ab0_765887_93693.jpg",
-        "tienda_origen": "Conforama",
-        "id": 61
-    },
-    {
-        "nombre": "Silla de comedor KARLA color negra",
-        "precio": "44,90 €",
-        "url_imagen": "https://medias.conforama.pt/media/260by271/16cde9600ea805c09138f1de18a5059cdce252be_764380.jpg",
-        "tienda_origen": "Conforama",
-        "id": 62
-    },
-    {
-        "nombre": "Silla de comedor COLORS color rosa",
-        "precio": "49,90 €",
-        "url_imagen": "https://medias.conforama.pt/media/260by271/9763108c3f5a5f5c00d5c5e43ec38ffac329465e_760820_01.jpg",
-        "tienda_origen": "Conforama",
-        "id": 63
-    },
-    {
-        "nombre": "Silla de comedor de tela VERONA color beige",
-        "precio": "69,90 €",
-        "url_imagen": "https://medias.conforama.pt/media/260by271/a2d38eb027bc8224217f6af2332ee2cefddd5c3d_398031_01.jpg",
-        "tienda_origen": "Conforama",
-        "id": 64
-    },
-    {
-        "nombre": "Silla comedor rotativa grisCARMENCITA",
-        "precio": "79,90 €",
-        "url_imagen": "https://medias.conforama.pt/media/260by271/a2ccfecdf578505d1a2ab8b482530f25e7514ee3_116169__6_.jpg",
-        "tienda_origen": "Conforama",
-        "id": 65
-    },
-    {
-        "nombre": "Silla de comedor FACTORY gris oscuro",
-        "precio": "59,90 €",
-        "url_imagen": "https://medias.conforama.pt/media/260by271/ff2f914fd0cc2a6017f8f7faa15b5988fcacee62_387903_01.jpg",
-        "tienda_origen": "Conforama",
-        "id": 66
-    },
-    {
-        "nombre": "Silla de comedor BRIGHT 2 color blanco",
-        "precio": "39,90 €",
-        "url_imagen": "https://medias.conforama.pt/media/260by271/282d0581007708db5014e9c4193b63886d9614c6_366237_01.jpg",
-        "tienda_origen": "Conforama",
-        "id": 67
-    },
-    {
-        "nombre": "Silla de Comedor tapizada en PU DITO",
-        "precio": "39,90 €",
-        "url_imagen": "https://medias.conforama.pt/media/260by271/1651ecd49b135cd4f78c5c2581cdd4dbc13d3e26_356107.jpg",
-        "tienda_origen": "Conforama",
-        "id": 68
-    },
-    {
-        "nombre": "Silla Comedor SIMONE color Naranja",
-        "precio": "39,90 €",
-        "url_imagen": "https://medias.conforama.pt/media/260by271/0fb3865a6e325b6e0cc881f5ed1ff6e763f735ef_112821__3_.jpg",
-        "tienda_origen": "Conforama",
-        "id": 69
-    },
-    {
-        "nombre": "Silla sintética MALTA color negro",
-        "precio": "39,90 €",
-        "url_imagen": "https://medias.conforama.pt/media/260by271/91b51beede38938f3edae2117e57a20d927d7557_379793_01.jpg",
-        "tienda_origen": "Conforama",
-        "id": 70
-    },
-    {
-        "nombre": "Silla de comedor CATARINA gris claro",
-        "precio": "49,90 €",
-        "url_imagen": "https://medias.conforama.pt/media/260by271/8a804f04fcafe7f059982a48fc28aa5865f75e75_397954_01.jpg",
-        "tienda_origen": "Conforama",
-        "id": 71
-    },
-    {
-        "nombre": "Silla de comedor CAPRI poliuretano marrón",
-        "precio": "49,90 €",
-        "url_imagen": "https://medias.conforama.pt/media/260by271/ac9cf266e4e0aeff1181292ecde9bbb7dcd79cd9_406097.jpg",
-        "tienda_origen": "Conforama",
-        "id": 72
     }
 ]
