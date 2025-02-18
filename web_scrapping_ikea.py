@@ -96,3 +96,6 @@ def web_scrapping_ikea(busqueda):
 
     #Devolvemos los resultados obtenidos de la búsqueda
     return resultados
+
+# if __name__ == "__main__":
+#     web_scrapping_ikea("silla")

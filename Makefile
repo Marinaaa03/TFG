@@ -4,6 +4,7 @@ WS := web_scrapping.py
 IKEA := web_scrapping_ikea.py
 CONFORAMA := web_scrapping_conforama.py
 APP := app.py
+JSON := resultados.json
 
 ws0: $(WS)
 	$(PYTHON) $(WS)
@@ -18,4 +19,4 @@ web: $(APP)
 	$(PYTHON) $(APP)
 
 clean:
-	rm -f resultados.json
+	rm -f $(JSON)

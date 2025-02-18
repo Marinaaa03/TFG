@@ -74,6 +74,9 @@ def web_scrapping_conforama_tipo1(busqueda):
     #Devolvemos los resultados obtenidos de la búsqueda
     return resultados
 
+
+
+
 def web_scrapping_conforama_tipo2(busqueda):
 
     #Configuramos Selenium
@@ -141,6 +144,6 @@ def web_scrapping_conforama_tipo2(busqueda):
     #Devolvemos los resultados obtenidos de la búsqueda
     return resultados
 
-if __name__ == "__main__":
-    web_scrapping_conforama_tipo1("ducha")
-    web_scrapping_conforama_tipo2("ducha")
+# if __name__ == "__main__":
+#     web_scrapping_conforama_tipo1("mesa salón")
+#     web_scrapping_conforama_tipo2("percha")

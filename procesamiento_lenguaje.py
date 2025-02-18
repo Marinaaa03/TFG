@@ -1,12 +1,7 @@
 import spacy
 from sentence_transformers import SentenceTransformer, util
-import json
+from funciones import cargar_productos_json
 from web_scrapping import web_scrapping_global
-
-#Función para cargar productos desde un archivo JSON
-def cargar_productos_desde_json(nombre_archivo):
-    with open(nombre_archivo, 'r', encoding='utf-8') as file:
-        return json.load(file)
 
 
 #Función para extraer un producto y sus atributos dada una frase
@@ -65,7 +60,7 @@ producto, atributos = extraer_producto_y_atributos(frase_usuario)
 print(f"Producto: {producto}, Atributos: {atributos}")
 
 web_scrapping_global(producto)
-productos = cargar_productos_desde_json("resultados.json")
+productos = cargar_productos_json("resultados.json")
 
 
 productos_recomendados = filtrar_productos_semanticos(productos, atributos)
