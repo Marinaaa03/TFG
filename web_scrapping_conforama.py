@@ -24,7 +24,7 @@ def web_scrapping_conforama_tipo1(busqueda):
 
     try:
         #Esperamos a que la página con los productos esté disponible
-        WebDriverWait(driver, 10).until(
+        WebDriverWait(driver, 5).until(
             EC.presence_of_all_elements_located((By.CLASS_NAME, "product-container-wrapper"))
         )
 
@@ -94,7 +94,7 @@ def web_scrapping_conforama_tipo2(busqueda):
 
     try:
         #Esperamos a que la página con los productos esté disponible
-        WebDriverWait(driver, 10).until(
+        WebDriverWait(driver, 5).until(
             EC.presence_of_all_elements_located((By.CLASS_NAME, "x-result"))
         )
 

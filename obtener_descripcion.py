@@ -47,6 +47,7 @@ image_base64 = base64.b64encode(image_response.content).decode('utf-8')
 
 
 API_URL = "https://api-inference.huggingface.co/models/Salesforce/blip-image-captioning-base"
+# API_URL = "https://api-inference.huggingface.co/models/Ayansk11/Image_Caption_using_ViT_GPT2"
 headers = {"Authorization": "Bearer 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"}
 
 
@@ -54,6 +55,6 @@ data = {"image": image_base64, "question": "Describe the image in detail"}
 
 response = requests.post(API_URL, headers=headers, json=data)
 
-print(response.json()) 
+print(response.json())
 
 #https://huggingface.co/Salesforce/blip-image-captioning-base
