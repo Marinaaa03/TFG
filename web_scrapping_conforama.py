@@ -85,6 +85,16 @@ def web_scrapping_conforama_tipo2(busqueda):
     service = Service("/usr/local/bin/geckodriver")
     driver = webdriver.Firefox(options=options, service=service)
 
+    #Obtenemos el URL de la página web de Conforama
+    url = "https://www.conforama.es/"
+    driver.get(url)
+
+    #Añadimos las cookies necesarias
+    cookies = [{'name': 'cto_bundle', 'value': 'UiYrkV9TNzB1a1JtSjBlJTJCdGdLM2dzODc1Y0lBODZEUzN3TUZvUmJjTk4lMkJSZmZuUjR1TXlrcGVxdiUyQmMlMkJSMUZCeUlSVGJOdnZWRTdGRXhhTUIzdm1VQWpDb2RNOXp3JTJGZk43UDBYNndqUGk3YzByRjdRQzk0SURPWEZ1dnFpUVlYUGJpclg5OFo5N3FxczJLaEdKaWdNZ3RqQ05nJTNEJTNE'}]
+
+    for cookie in cookies:
+        driver.add_cookie(cookie)
+
     #Obtenemos el URL del producto indicado en busqueda en la página web de Conforama
     url = f"https://www.conforama.es/?query={busqueda.replace(' ', '+')}"
     driver.get(url)
@@ -137,6 +147,7 @@ def web_scrapping_conforama_tipo2(busqueda):
 
     except Exception as e:
         print(f"Error al cargar los productos de Conforama (Función 2): {type(e).__name__}")
+        return None
 
     finally:
         driver.quit()

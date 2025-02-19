@@ -1,0 +1,324 @@
+[
+    {
+        "id": 1,
+        "nombre": "Set 8 perchas MADERA 44,5x12x23 cm",
+        "precio": 4.99,
+        "tienda_origen": "Conforama",
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/8503eb2818cdb777ae615ab46166d56a587e559a_117555_01.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Set de 10 perchas de plástico violeta",
+        "precio": 2.49,
+        "tienda_origen": "Conforama",
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/9af52c749987c60102d09a76e77443179bb76575_371402_S1.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Set 5 perchas CONFORT plástico",
+        "precio": 3.99,
+        "tienda_origen": "Conforama",
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/f8ad5bf2cf1b494ef29a6787bae8921c26f3d6f5_Set_5_perchas_plastico.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Set de 8 perchas madera 44,5cm",
+        "precio": 4.99,
+        "tienda_origen": "Conforama",
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/69e3e66c6a9f9abd07b3e1fd4b49d1171425b17d_WEB_1012x728_40.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Set 3 perchas madera BLANCA 44,5cm",
+        "precio": 3.49,
+        "tienda_origen": "Conforama",
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/b363faf2168b7301555c5cd10da1c838a344f448_371407.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Set 3 perchas MADERA natural 44cm",
+        "precio": 2.99,
+        "tienda_origen": "Conforama",
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/3d0d0324f4a5ec4bed4ab72fa729a858254fd0cf_set_3_perchas.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Burro para colgar la ropa EDDY",
+        "precio": 49.99,
+        "tienda_origen": "Conforama",
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/26deb0eb5cd94d311494d009e1cccb02fb3268b2_wd_5577__2_.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Percha Múltiple para Pantalones 5 en 1 Havser InnovaGoods",
+        "precio": 20.05,
+        "tienda_origen": "Conforama",
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/2107ca670ff462d53edb73ec5b44246f6164acf5_177aed51ec0545ecba8a13735a8738d4.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "Perchero de Pared Arlet 4 Perchas y 1 Estante, Color Roble/Negro",
+        "precio": 31.99,
+        "tienda_origen": "Conforama",
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/8f15e67bbac332d05a0bd3b7bc03bb34f88f7da3_d25badfeafd742849f275aebe76e2192.jpg"
+    },
+    {
+        "id": 10,
+        "nombre": "Percha giratoria de metal con 3 ganchos",
+        "precio": 8.9,
+        "tienda_origen": "Conforama",
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/85210a77d0f9e0f617037f6eb2670c319be41808_651d25017f674b049674b74811508048.jpg"
+    },
+    {
+        "id": 11,
+        "nombre": "Perchero twist metálico con 8 perchas, 50x50x183 cm",
+        "precio": 39.75,
+        "tienda_origen": "Conforama",
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/af64aad43304ff6ed48c53b7e93e41ec0bc47f75_02133f95416a42db99686a544f85257b.jpg"
+    },
+    {
+        "id": 12,
+        "nombre": "Perchero burro Snåsa con estante 5 perchas metal 170x105x43cm - Blanco [en.casa]",
+        "precio": 46.0,
+        "tienda_origen": "Conforama",
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/c6bc1cf023ec28db6bb69325ff1ab14de87357cf_00ad095ca907423e935fc2654feb53e8.jpg"
+    },
+    {
+        "id": 13,
+        "nombre": "Max Home Pack 20 perchas de madera color blanco",
+        "precio": 25.95,
+        "tienda_origen": "Conforama",
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/5ae4aadee5973f4ba0578c3b600b06a86809c7f6_26795115a80746f0b866b682dfde669d.jpg"
+    },
+    {
+        "id": 14,
+        "nombre": "Max Home Pack 20 perchas de madera color natural",
+        "precio": 23.95,
+        "tienda_origen": "Conforama",
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/7d955d44b02a80446e57bb7fb2b8ec1f6de70e39_275263bcabff44c785e13a4ff7f5bfa1.jpg"
+    },
+    {
+        "id": 15,
+        "nombre": "Percha de metal 10x10 cm",
+        "precio": 8.06,
+        "tienda_origen": "Conforama",
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/1111c99ba5a10782bc98713644a61043dfdbfb5c_1ae7c4d91c0e419abf8bb756aed4b82f.jpg"
+    },
+    {
+        "id": 16,
+        "nombre": "Percha de metal 10x10 cm",
+        "precio": 8.06,
+        "tienda_origen": "Conforama",
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/f8d8191ac2b9edafaafdc6b1fad1aa1379df7f86_5490731c0bb34ae5905da5e54092b13f.jpg"
+    },
+    {
+        "id": 17,
+        "nombre": "Percha cerdo de pared 21x34 cm",
+        "precio": 10.15,
+        "tienda_origen": "Conforama",
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/05e9f54310099d3987582aa8a5d67b1e2887cd8e_ea16eeae364f49bba8c52f85cba0ffd2.jpg"
+    },
+    {
+        "id": 18,
+        "nombre": "Percha cerdo de pared 21x34 cm",
+        "precio": 10.15,
+        "tienda_origen": "Conforama",
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/91623f1adfbdfe242c9dfeb54a9c148f869be051_f29d91b860ae42e79ee0397d2349b71b.jpg"
+    },
+    {
+        "id": 19,
+        "nombre": "Perchero de Pared Amaia 5 Perchas, Color Roble/Negro",
+        "precio": 12.99,
+        "tienda_origen": "Conforama",
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/726a24454c3d7f580a95f2e9be09624dcd8af83b_e2ccb37aa0e642028b3534861be058ac.jpg"
+    },
+    {
+        "id": 20,
+        "nombre": "Set de Organizadores para Perchas Orzer InnovaGoods 2 Unidades",
+        "precio": 15.07,
+        "tienda_origen": "Conforama",
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/fea059572446bfeef48e6cf7d3a8e81f20bcf07f_aaaedb3f4ccb4e46819d6434bd9b48eb.jpg"
+    },
+    {
+        "id": 21,
+        "nombre": "Organizador de Perchas para 40 Prendas Plusrobe InnovaGoods 24 Piezas",
+        "precio": 15.07,
+        "tienda_origen": "Conforama",
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/e62caaea111a761dff166a9b49dc943959ef9d20_70dcd5963b50432992e4280fd9aaf316.jpg"
+    },
+    {
+        "id": 22,
+        "nombre": "Percha de pared de madera tallada blanca 11.5x8.5x20.5",
+        "precio": 15.31,
+        "tienda_origen": "Conforama",
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/7964a7b3b3ce541742980919bc1f39a2eb3319b2_36bb4aafc528461e87ccdbd11b89ed4a.jpg"
+    },
+    {
+        "id": 23,
+        "nombre": "Percha de maderay metal de 3 ganchos negra 60x5x28",
+        "precio": 15.84,
+        "tienda_origen": "Conforama",
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/bb1af2b619a964fa44b0b932192dc6944dfea379_654e3e7b396a4bf899fe5a0d05c078c4.jpg"
+    },
+    {
+        "id": 24,
+        "nombre": "Percha de madera y metal verde 74x23",
+        "precio": 18.19,
+        "tienda_origen": "Conforama",
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/21ee9edfefa77ee0d5546dee02c53af7b93ba0a4_ea1b4ea9da614a86891657441928fdf7.jpg"
+    },
+    {
+        "id": 25,
+        "nombre": "Percha (SPRUTTIG)",
+        "precio": 2.49,
+        "tienda_origen": "IKEA",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/spruttig-percha-negro__0710664_pe727695_s5.jpg?f=xxs"
+    },
+    {
+        "id": 26,
+        "nombre": "Percha (BUMERANG)",
+        "precio": 4.99,
+        "tienda_origen": "IKEA",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/bumerang-percha-natural__0710666_pe727700_s5.jpg?f=xxs"
+    },
+    {
+        "id": 27,
+        "nombre": "Percha (TRYSSE)",
+        "precio": 2.29,
+        "tienda_origen": "IKEA",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/trysse-percha-blanco-gris__1020737_pe831966_s5.jpg?f=xxs"
+    },
+    {
+        "id": 28,
+        "nombre": "Percha (HÖSVANS)",
+        "precio": 2.99,
+        "tienda_origen": "IKEA",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/hosvans-percha-bambu__1331000_pe945879_s5.jpg?f=xxs"
+    },
+    {
+        "id": 29,
+        "nombre": "Percha para faldas (BUMERANG)",
+        "precio": 0.99,
+        "tienda_origen": "IKEA",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/bumerang-percha-faldas-natural__0944475_pe797281_s5.jpg?f=xxs"
+    },
+    {
+        "id": 30,
+        "nombre": "Percha para niños y niñas (BAGIS)",
+        "precio": 2.49,
+        "tienda_origen": "IKEA",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/bagis-percha-ninos-ninas-colores-variados__0878856_pe781732_s5.jpg?f=xxs"
+    },
+    {
+        "id": 31,
+        "nombre": "Gancho para perchas (OMTRENT)",
+        "precio": 1.49,
+        "tienda_origen": "IKEA",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/omtrent-gancho-perchas-verde__1087620_pe860813_s5.jpg?f=xxs"
+    },
+    {
+        "id": 32,
+        "nombre": "Percha con forma (BUMERANG)",
+        "precio": 0.5,
+        "tienda_origen": "IKEA",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/bumerang-percha-con-forma-blanco__0710674_pe727705_s5.jpg?f=xxs"
+    },
+    {
+        "id": 33,
+        "nombre": "Perchero, 78 cm (TJUSIG)",
+        "precio": 15.99,
+        "tienda_origen": "IKEA",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/tjusig-perchero-blanco__0710541_pe727624_s5.jpg?f=xxs"
+    },
+    {
+        "id": 34,
+        "nombre": "Percha para falda y pantalón (GÅRDSMÄSTARE)",
+        "precio": 2.99,
+        "tienda_origen": "IKEA",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/gardsmastare-percha-falda-pantalon-blanco__1128825_pe876702_s5.jpg?f=xxs"
+    },
+    {
+        "id": 35,
+        "nombre": "Percha (STRYKIS)",
+        "precio": 5.99,
+        "tienda_origen": "IKEA",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/strykis-percha-negro__0710662_pe727693_s5.jpg?f=xxs"
+    },
+    {
+        "id": 36,
+        "nombre": "Percha para niños y niñas (HÄNGA)",
+        "precio": 3.99,
+        "tienda_origen": "IKEA",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/hanga-percha-ninos-ninas-natural__0710667_pe727698_s5.jpg?f=xxs"
+    },
+    {
+        "id": 37,
+        "nombre": "Percha con pinzas (SLIBB)",
+        "precio": 0.99,
+        "tienda_origen": "IKEA",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/slibb-percha-con-pinzas-verde__1232139_pe916424_s5.jpg?f=xxs"
+    },
+    {
+        "id": 38,
+        "nombre": "Percha para niños y niñas (BAGIS)",
+        "precio": 2.49,
+        "tienda_origen": "IKEA",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/bagis-percha-ninos-ninas-colores-variados__1425379_pe979495_s5.jpg?f=xxs"
+    },
+    {
+        "id": 39,
+        "nombre": "Percha múltiple (KOMPLEMENT)",
+        "precio": 4.49,
+        "tienda_origen": "IKEA",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/komplement-percha-multiple-blanco__0710656_pe727686_s5.jpg?f=xxs"
+    },
+    {
+        "id": 40,
+        "nombre": "Percha (RÅGODLING)",
+        "precio": 1.99,
+        "tienda_origen": "IKEA",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/ragodling-percha-bambu-oscuro__1222720_pe914347_s5.jpg?f=xxs"
+    },
+    {
+        "id": 41,
+        "nombre": "Percha (BUMERANG)",
+        "precio": 2.49,
+        "tienda_origen": "IKEA",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/bumerang-percha-natural__0944470_pe797277_s5.jpg?f=xxs"
+    },
+    {
+        "id": 42,
+        "nombre": "Colgador para puerta o pared, 60 cm (TJUSIG)",
+        "precio": 14.99,
+        "tienda_origen": "IKEA",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/tjusig-colgador-puerta-pared-blanco__0710542_pe727622_s5.jpg?f=xxs"
+    },
+    {
+        "id": 43,
+        "nombre": "Percha para pantalones (STRYKIS)",
+        "precio": 4.99,
+        "tienda_origen": "IKEA",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/strykis-percha-pantalones-negro__0710675_pe727703_s5.jpg?f=xxs"
+    },
+    {
+        "id": 44,
+        "nombre": "Percha para niños y niñas (BARNDRÖM)",
+        "precio": 3.99,
+        "tienda_origen": "IKEA",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/barndrom-percha-ninos-ninas-rosa-blanco-gris__1177051_pe895217_s5.jpg?f=xxs"
+    },
+    {
+        "id": 45,
+        "nombre": "Perchero, 78 cm (TJUSIG)",
+        "precio": 15.99,
+        "tienda_origen": "IKEA",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/tjusig-perchero-negro__0710544_pe727621_s5.jpg?f=xxs"
+    },
+    {
+        "id": 46,
+        "nombre": "Perchero para puerta (ENUDDEN)",
+        "precio": 4.99,
+        "tienda_origen": "IKEA",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/enudden-perchero-puerta-blanco__0710492_pe727593_s5.jpg?f=xxs"
+    }
+]

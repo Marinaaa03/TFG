@@ -1,4 +1,5 @@
 import json
+from web_scrapping import *
 
 #Función para cargar productos desde un archivo JSON
 def cargar_productos_json(nombre_archivo):
@@ -129,12 +130,27 @@ def buscar_en_bd(conn, termino, visualizacion = False):
         if productos:
             print(f"Se han encontrado {len(productos)} productos\n")
 
+            productos_dict = []
+            for producto in productos:
+                producto_dict = {
+                    'id': producto[0],
+                    'nombre': producto[1],
+                    'precio': producto[2],
+                    'tienda_origen': producto[3],
+                    'url_imagen': producto[4]
+                }
+                productos_dict.append(producto_dict)
+
             #Si la visualización está a True se muestran los productos
             if visualizacion:
                 for producto in productos:
                     print(producto)
 
-            return productos
+            # return productos
+            with open('productos_busqueda_actual.json', 'w', encoding='utf-8') as f:
+                json.dump(productos_dict, f, ensure_ascii=False, indent=4)
+            
+            return productos_dict
         
         #Si no existen productos se indica al usuario
         else:
@@ -166,4 +182,26 @@ def visualizar_tablas(cursor):
     cursor.execute("SELECT * FROM busquedas_productos")
     for row in cursor.fetchall():
         print(row)
+
+def busqueda(conn, termino_busqueda, visualizacion = True, borra_tablas = False):
+    
+    if(borra_tablas):
+        borrar_tablas(conn)
+
+    crear_tablas(conn)
+
+    #Comprobamos si el término ha sido previamente buscado (es decir, si hay información en la base de datos)
+    resultados = buscar_en_bd(conn, termino_busqueda, visualizacion)
+
+    #En caso de que no haya coincidencias llevamos a cabo web scrapping e introducimos los resultados en nuestra base de datos
+    if(resultados == None):
+        print(f"Realizando la búsqueda de {termino_busqueda}")
+        web_scrapping_global(termino_busqueda)
+        insertar_productos(conn, termino_busqueda)
+    
+        #Visualizamos los resultados
+        resultados = buscar_en_bd(conn, termino_busqueda, visualizacion)
+    
+    return resultados
+    
     
