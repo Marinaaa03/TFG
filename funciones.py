@@ -203,5 +203,12 @@ def busqueda(conn, termino_busqueda, visualizacion = True, borra_tablas = False)
         resultados = buscar_en_bd(conn, termino_busqueda, visualizacion)
     
     return resultados
-    
-    
+
+
+def filtrar_productos_por_precio(productos):
+    productos_ordenados = sorted(productos, key=lambda x: x['precio'])
+
+    # for p in productos_ordenados:
+    #     print(f"{p['nombre']} ) {p['precio']}")
+    return productos_ordenados
+        

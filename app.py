@@ -14,19 +14,6 @@ def index():
 
 @app.route("/buscar", methods=["POST"])
 def buscar():
-    # producto = request.form["producto"]
-    # print(f"PRODUCTO == {producto}")
-    
-    # web_scrapping_global(producto)
-
-    # # Cargar los resultados desde el archivo JSON
-    # with open("productos_busqueda_actual.json", "r", encoding="utf-8") as file:
-    #     resultados = json.load(file)
-
-    # # Renderizar la plantilla y pasar los resultados a la plantilla
-    # return render_template("resultados.html", resultados=resultados)
-
-
     producto = request.form["producto"]
     print(f"PRODUCTO == {producto}")
 
@@ -45,8 +32,10 @@ def buscar():
     with open("productos_busqueda_actual.json", "r", encoding="utf-8") as file:
         resultados = json.load(file)
 
+    productos_ordenados = filtrar_productos_por_precio(resultados)
+    
     # Renderizar la plantilla y pasar los resultados a la plantilla
-    return render_template("resultados.html", resultados=resultados)
+    return render_template("resultados.html", resultados=productos_ordenados)
 
 if __name__ == "__main__":
     app.run(debug=True)
