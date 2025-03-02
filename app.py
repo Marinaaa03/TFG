@@ -1,6 +1,5 @@
-from flask import Flask, request, render_template
+from flask import Flask, request, render_template, jsonify
 import json
-from web_scrapping import web_scrapping_global
 from funciones import *
 import sqlite3
 
@@ -14,8 +13,13 @@ def index():
 
 @app.route("/buscar", methods=["POST"])
 def buscar():
-    producto = request.form["producto"]
-    print(f"PRODUCTO == {producto}")
+    # producto = request.form["producto"]
+    # print(f"PRODUCTO == {producto}")
+    if request.is_json:
+        data = request.get_json()
+        producto = data.get("producto")
+    else:
+        producto = request.form.get("producto")
 
     #Nos conectamos a nuestra base de datos de SQLite
     conn = sqlite3.connect("base_datos.db")
@@ -35,7 +39,11 @@ def buscar():
     productos_ordenados = filtrar_productos_por_precio(resultados)
     
     # Renderizar la plantilla y pasar los resultados a la plantilla
-    return render_template("resultados.html", resultados=productos_ordenados)
+    if not request.is_json:
+        return render_template("resultados.html", resultados=productos_ordenados)
+
+    # Si la petición viene de Android, devolver JSON
+    return jsonify(productos_ordenados)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000, debug=True)

@@ -37,11 +37,13 @@
             <ul class="grid-container">
                 {% for resultado in resultados %}
                     <li class="grid-item">
-                        <h2>{{ resultado['nombre'] }}</h2>
-                        <p><strong>Precio:</strong> {{ resultado['precio'] }}</p>
-                        <p><strong>Tienda:</strong> {{ resultado['tienda_origen'] }}</p>
-                        <p><strong>ID:</strong> {{ resultado['id'] }}</p>
-                        <img src="{{ resultado['url_imagen'] }}" alt="Imagen del producto">
+                        <a href="{{ resultado['url_acceso'] }}" target="_blank" style="text-decoration: none; color: inherit">
+                            <h2>{{ resultado['nombre'] }}</h2>
+                            <p><strong>Precio:</strong> {{ resultado['precio'] }}</p>
+                            <p><strong>Tienda:</strong> {{ resultado['tienda_origen'] }}</p>
+                            <p><strong>ID:</strong> {{ resultado['id'] }}</p>
+                            <img src="{{ resultado['url_imagen'] }}" alt="Imagen del producto">
+                        </a>
                     </li>
                 {% endfor %}
             </ul>

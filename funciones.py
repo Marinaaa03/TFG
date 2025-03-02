@@ -16,7 +16,8 @@ def crear_tablas(conn):
                             nombre TEXT NOT NULL,
                             precio REAL NOT NULL,
                             url_imagen TEXT,
-                            tienda_origen TEXT NOT NULL )""")
+                            tienda_origen TEXT NOT NULL, 
+                            url_acceso TEXT NOT NULL)""")
 
     #TABLA BUSQUEDAS
     cursor.execute(""" CREATE TABLE IF NOT EXISTS busquedas (
@@ -87,8 +88,8 @@ def insertar_productos(conn, termino):
         precio_limpio = limpiar_precio(producto["precio"])
 
         #Insertamos los productos en la tabla correspondiente
-        cursor.execute("""INSERT OR IGNORE INTO productos (nombre, precio, url_imagen, tienda_origen) VALUES (?, ?, ?, ?)""", 
-                          (producto["nombre"], precio_limpio, producto["url_imagen"], producto["tienda_origen"]))
+        cursor.execute("""INSERT OR IGNORE INTO productos (nombre, precio, url_imagen, tienda_origen, url_acceso) VALUES (?, ?, ?, ?, ?)""", 
+                          (producto["nombre"], precio_limpio, producto["url_imagen"], producto["tienda_origen"], producto["url_acceso"]))
 
         
         #Obtenemos el id del producto
@@ -119,7 +120,7 @@ def buscar_en_bd(conn, termino, visualizacion = False):
 
         #Buscamos los productos asociados, obteniendo el id de busqueda (que coincida en la tabla busquedas y en la tabla productos_busquedas), 
         #obteniendo el id de producto (que coincida en la tabla productos_busquedas y en la tabla productos), y con ese id obtenemos el listado con los diferentes productos
-        cursor.execute(""" SELECT productos.id, productos.nombre, productos.precio, productos.tienda_origen, productos.url_imagen
+        cursor.execute(""" SELECT productos.id, productos.nombre, productos.precio, productos.tienda_origen, productos.url_imagen, productos.url_acceso
                            FROM productos
                            JOIN busquedas_productos ON productos.id = busquedas_productos.producto_id
                            WHERE busquedas_productos.busqueda_id = ? """, (busqueda_id,))
@@ -137,7 +138,8 @@ def buscar_en_bd(conn, termino, visualizacion = False):
                     'nombre': producto[1],
                     'precio': producto[2],
                     'tienda_origen': producto[3],
-                    'url_imagen': producto[4]
+                    'url_imagen': producto[4],
+                    'url_acceso': producto[5]
                 }
                 productos_dict.append(producto_dict)
 

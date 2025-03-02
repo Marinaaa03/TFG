@@ -48,6 +48,8 @@ def web_scrapping_conforama_tipo1(busqueda):
                 precio_producto = producto.find("div", class_="selling-price")
                 image_holder = producto.find("div", class_="image-holder")
                 img_tag = image_holder.find("img")
+                acceso_producto = producto.find("a")
+                link_acceso = acceso_producto['href'] if acceso_producto else "Acceso al producto no disponible"
 
                 #Procesamos el contenido 
                 nombre = nombre_producto.text.strip() if nombre_producto else "Nombre no disponible"
@@ -57,10 +59,15 @@ def web_scrapping_conforama_tipo1(busqueda):
                 else: 
                     image = None
 
+                if acceso_producto and acceso_producto.has_attr('href'):
+                    link_acceso = acceso_producto["href"]
+                else:
+                    link_acceso = None
+
                 # #Imprimimos la información de cada producto
                 # print(f"{i}. Nombre: {nombre} \t Precio: {precio} \t URL imagen: {image}\n") #\t Valoración: {estrellas} \t Descripción: {desc}")
                                 
-                resultados.append({"nombre": nombre, "precio": precio, "url_imagen": image, "tienda_origen": "Conforama"})
+                resultados.append({"nombre": nombre, "precio": precio, "url_imagen": image, "tienda_origen": "Conforama", "url_acceso": link_acceso})
 
         else:
             print("No se encontraron productos relacionados.")
@@ -128,6 +135,8 @@ def web_scrapping_conforama_tipo2(busqueda):
                 precio_producto = producto.find("span", class_="x-currency")
                 image_holder = producto.find("div", class_="x-result-picture")
                 img_tag = image_holder.find("img")
+                acceso_producto = producto.find("a", class_="x-result-link")
+
 
                 #Procesamos el contenido 
                 nombre = nombre_producto.text.strip() if nombre_producto else "Nombre no disponible"
@@ -136,11 +145,16 @@ def web_scrapping_conforama_tipo2(busqueda):
                     image = img_tag["src"] 
                 else: 
                     image = None
+                
+                if acceso_producto and acceso_producto.has_attr('href'):
+                    link_acceso = acceso_producto["href"]
+                else:
+                    link_acceso = None
 
                 # #Imprimimos la información de cada producto
                 #print(f"{i}. Nombre: {nombre} \t Precio: {precio} \t URL imagen: {image}\n") #\t Valoración: {estrellas} \t Descripción: {desc}")
                                 
-                resultados.append({"nombre": nombre, "precio": precio, "url_imagen": image, "tienda_origen": "Conforama"})
+                resultados.append({"nombre": nombre, "precio": precio, "url_imagen": image, "tienda_origen": "Conforama", "url_acceso": link_acceso})
 
         else:
             print("No se encontraron productos relacionados.")

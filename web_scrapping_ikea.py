@@ -51,6 +51,8 @@ def web_scrapping_ikea(busqueda):
                 valoracion = producto.find("span", class_="plp-ratings plp-ratings--small plp-ratings--product-card notranslate")
                 image_tag = producto.find("img", class_="plp-image")
 
+                acceso_producto = producto.find("a", class_= "plp-product__image-link")
+
                 #Procesamos el contenido 
                 nombre = nombre_producto.text.strip() if nombre_producto else "Nombre no disponible"
                 desc = descripcion.text.strip() if descripcion else "Descripción no disponible"
@@ -78,11 +80,14 @@ def web_scrapping_ikea(busqueda):
                     imagen = image_tag["src"] 
                 else: 
                     imagen = None
+                
+                if acceso_producto and acceso_producto.has_attr('href'):
+                    link_acceso = acceso_producto["href"]
 
                 # #Imprimimos la información de cada producto
                 # print(f"{i}. Nombre: {desc} ({nombre}) \t Precio: {precio_producto} \t Valoración: {estrellas} \t URL imagen: {imagen}\n")
                 
-                resultados.append({"nombre": nombre_final, "precio": precio_producto, "url_imagen": imagen, "tienda_origen": "IKEA"})
+                resultados.append({"nombre": nombre_final, "precio": precio_producto, "url_imagen": imagen, "tienda_origen": "IKEA", "url_acceso": link_acceso})
 
         else:
             print("No se encontraron productos relacionados.")

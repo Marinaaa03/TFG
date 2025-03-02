@@ -18,5 +18,8 @@ ws2: $(CONFORAMA)
 web: $(APP)
 	$(PYTHON) $(APP)
 
+app:
+	flask run --host=0.0.0.0 --port=5000
+
 clean:
 	rm -f $(JSON)
