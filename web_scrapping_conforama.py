@@ -97,7 +97,8 @@ def web_scrapping_conforama_tipo2(busqueda):
     driver.get(url)
 
     #Añadimos las cookies necesarias
-    cookies = [{'name': 'cto_bundle', 'value': 'UiYrkV9TNzB1a1JtSjBlJTJCdGdLM2dzODc1Y0lBODZEUzN3TUZvUmJjTk4lMkJSZmZuUjR1TXlrcGVxdiUyQmMlMkJSMUZCeUlSVGJOdnZWRTdGRXhhTUIzdm1VQWpDb2RNOXp3JTJGZk43UDBYNndqUGk3YzByRjdRQzk0SURPWEZ1dnFpUVlYUGJpclg5OFo5N3FxczJLaEdKaWdNZ3RqQ05nJTNEJTNE'}]
+    cookies = [{'name': 'cto_bundle', 'value': 'UiYrkV9TNzB1a1JtSjBlJTJCdGdLM2dzODc1Y0lBODZEUzN3TUZvUmJjTk4lMkJSZmZuUjR1TXlrcGVxdiUyQmMlMkJSMUZCeUlSVGJOdnZWRTdGRXhhTUIzdm1VQWpDb2RNOXp3JTJGZk43UDBYNndqUGk3YzByRjdRQzk0SURPWEZ1dnFpUVlYUGJpclg5OFo5N3FxczJLaEdKaWdNZ3RqQ05nJTNEJTNE'},
+               {'name': 'InfPostalCode', 'value': '18006'}]
 
     for cookie in cookies:
         driver.add_cookie(cookie)

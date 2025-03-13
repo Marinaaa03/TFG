@@ -3,12 +3,27 @@ from web_scrapping_conforama import *
 import json
 
 def web_scrapping_global(producto):
-    #Obtenemos los resultados del producto en diferentes tiendas
-    resultados = web_scrapping_conforama_tipo2(producto)
+    MAX_INTENTOS = 3
+    num_intentos = 0
 
-    if(resultados == None):
+    while num_intentos < MAX_INTENTOS:
+        #Obtenemos los resultados del producto en diferentes tiendas
+        resultados = web_scrapping_conforama_tipo2(producto)
+
+        if resultados:
+            break
+
         resultados = web_scrapping_conforama_tipo1(producto)
 
+        if resultados:
+            break
+
+        num_intentos += 1
+
+    print(f"Número de intentos realizados: {num_intentos}")
+    if (resultados == None):
+        resultados = []
+        
     resultados += web_scrapping_ikea(producto)
 
 
