@@ -36,7 +36,7 @@ def web_scrapping_global(producto):
 
 
 # if __name__ == "__main__":
-#     # web_scrapping_global("mesa")
+#      web_scrapping_global("mesa")
 #     termino_busqueda = "armario"
 
 #     #Nos conectamos a nuestra base de datos de SQLite

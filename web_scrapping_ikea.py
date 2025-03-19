@@ -48,7 +48,7 @@ def web_scrapping_ikea(busqueda):
                 precio_entero_producto = producto.find("span", class_="plp-price__integer")
                 precio_decimal_producto = producto.find("span", class_="plp-price__decimal")
                 descripcion = producto.find("span", class_="plp-price-module__description")
-                valoracion = producto.find("span", class_="plp-ratings plp-ratings--small plp-ratings--product-card notranslate")
+                # valoracion = producto.find("span", class_="plp-ratings plp-ratings--small plp-ratings--product-card notranslate")
                 image_tag = producto.find("img", class_="plp-image")
 
                 acceso_producto = producto.find("a", class_= "plp-product__image-link")
@@ -69,12 +69,12 @@ def web_scrapping_ikea(busqueda):
                 else:
                     precio_producto = "Precio no disponible"
 
-                if valoracion and valoracion.has_attr('aria-label'):
-                    valoracion_texto = valoracion['aria-label']
-                    estrellas = valoracion_texto.split("Revisa: ")[1].split("de")[0]
-                    estrellas = estrellas + "estrellas"
-                else:
-                    estrellas = "Sin valoración"
+                # if valoracion and valoracion.has_attr('aria-label'):
+                #     valoracion_texto = valoracion['aria-label']
+                #     estrellas = valoracion_texto.split("Revisa: ")[1].split("de")[0]
+                #     estrellas = estrellas + "estrellas"
+                # else:
+                #     estrellas = "Sin valoración"
 
                 if image_tag and image_tag.has_attr('src'):
                     imagen = image_tag["src"] 
