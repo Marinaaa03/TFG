@@ -59,8 +59,8 @@ frase_usuario = input("¿Qué desea? ")
 producto, atributos = extraer_producto_y_atributos(frase_usuario)
 print(f"Producto: {producto}, Atributos: {atributos}")
 
-web_scrapping_global(producto)
-productos = cargar_productos_json("resultados.json")
+# web_scrapping_global(producto)
+productos = cargar_productos_json("productos_busqueda_actual.json")
 
 
 productos_recomendados = filtrar_productos_semanticos(productos, atributos)
