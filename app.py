@@ -20,16 +20,18 @@ def buscar():
         producto = request.form.get("producto")
         filtro_precio = request.form.get("filtro_precio")
         tiendas_seleccionadas = request.form.get("tiendas")
+        desde_cero = 'desde_cero' in request.form
     else:
         producto = request.args.get("producto")
         filtro_precio = request.args.get("filtro_precio") 
         tiendas_seleccionadas = request.args.getlist("tiendas")
+        desde_cero = 'desde_cero' in request.args
     
     #Nos conectamos a nuestra base de datos de SQLite
     conn = sqlite3.connect("base_datos.db")
     #cursor = conn.cursor()
 
-    busqueda(conn, producto, False, False)
+    busqueda(conn, producto, False, desde_cero)
 
     #Visualizamos las tablas creadas
     #visualizar_tablas(cursor)
@@ -59,7 +61,7 @@ def buscar():
 
     #Renderizamos la plantilla y le pasamos los productos
     if not request.is_json:
-        return render_template("resultados.html", resultados = productos_ordenados, producto = producto, filtro_precio = filtro_precio, tiendas_seleccionadas = tiendas_seleccionadas)
+        return render_template("resultados.html", resultados = productos_ordenados, producto = producto, filtro_precio = filtro_precio, tiendas_seleccionadas = tiendas_seleccionadas, desde_cero=desde_cero)
 
     #Si la petición viene de Android, devolvemos los productos en formato JSON
     return jsonify(productos_ordenados)

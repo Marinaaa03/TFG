@@ -199,6 +199,8 @@ def visualizar_tablas(cursor):
     for row in cursor.fetchall():
         print(row)
 
+
+#Función para realizar una búsqueda de productos
 def busqueda(conn, termino_busqueda, visualizacion = True, borra_tablas = False):
     
     if(borra_tablas):
@@ -221,40 +223,40 @@ def busqueda(conn, termino_busqueda, visualizacion = True, borra_tablas = False)
     return resultados
 
 
+#Función para completar la información de los productos (Sección del modelo descriptivo IA)
 def insertar_descripcion(conn):
     cursor = conn.cursor()
 
+    #Cargamos la información obtenida por el modelo descriptivo
     descripciones = cargar_productos_json("productos_procesados.json")
 
-    # Recorrer las descripciones y actualizar los productos en la base de datos
+    #Recorremos la información actualizando los productos (su descripción y atributos en función del url) en la base de datos
     for prod in descripciones:
         url = prod["url"]
         descripcion = prod["descripcion"]
         atributos = prod.get("atributos", [])
 
-        # Asegúrate de que 'atributos' sea una lista válida antes de guardar
+        #Convertimos los atributos en una lista válida 
         if isinstance(atributos, str):
             try:
                 atributos = json.loads(atributos)
             except:
                 atributos = []
 
-        # Convertir la lista de atributos a string JSON
+        #Convertimos la lista con los atributos a cadena JSON
         atributos_str = json.dumps(atributos, ensure_ascii=False)
         
-        # Actualizar la tabla productos con la descripción donde coincida la url_imagen
-        cursor.execute("""
-            UPDATE productos
-            SET descripcion = ?, atributos = ?
-            WHERE url_imagen = ?
-        """, (descripcion, atributos_str, url))
+        #Actualizamos la tabla de los productos
+        cursor.execute("""UPDATE productos
+                          SET descripcion = ?, atributos = ?
+                          WHERE url_imagen = ?""", (descripcion, atributos_str, url))
 
-    # Guardar los cambios y cerrar la conexión
+    #Guardamos los cambios
     conn.commit()
-
     print("Base de datos actualizada con las descripciones y atributos.")
 
 
+#Función encargada de realizar el filtrado de los precios (tanto ascendentemente como descendientemente)
 def filtrar_productos_por_precio(productos, descendente):
     productos_ordenados = sorted(productos, key=lambda x: x['precio'], reverse=descendente)
    
@@ -262,6 +264,7 @@ def filtrar_productos_por_precio(productos, descendente):
     #     print(f"{p['nombre']} ) {p['precio']}")
     return productos_ordenados
 
+#Función encargada de realizar el filtrado de las tiendas (para que solo se vean productos pertenecientes a las tiendas seleccionadas)
 def filtrar_productos_por_tienda(productos, tiendas_seleccionadas):
     productos_tienda = []
     for prod in productos:

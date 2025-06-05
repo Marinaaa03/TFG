@@ -6,10 +6,27 @@
     <title>Buscar Productos</title>
     <style>
 
+        .intro-wrapper {
+            display: flex;
+            align-items: flex-start;
+            gap: 50px; /* espacio entre texto e imagen */
+            margin: 30px auto;
+            max-width: 1300px;
+            padding: 0 20px;
+        }
+
         .intro {
             border: 2px solid black;
             padding: 20px;
             max-width: 800px;
+            margin: 30px auto 30px 10px;
+        }
+
+        .intro-image {
+            max-width: 300px;
+            height: auto;
+            border-radius: 10px;
+            object-fit: cover;
             margin: 30px auto 30px 10px;
         }
 
@@ -31,17 +48,38 @@
             border-radius: 10px;            
             background-color: #e0e0e0;      
         }
-        
+
+        .checkbox-wrapper {
+            margin-top: 22px;
+            text-align: left;
+            font-size: 0.95em;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            justify-content: center;
+        }
+
     </style>
 </head>
+<script>
+    function mostrarAviso() {
+        const checkbox = document.getElementById("desde-cero");
+        if (checkbox.checked) {
+            alert("Esto podría hacer que el programa tarde un poco más");
+        }
+    }
+</script>
 <body>
 
-    <div class="intro">
-        <h2>¡Bienvenid@ a mi Trabajo Fin de Grado!</h2>
-        <p>Me presento, soy Marina Ruiz Palomino y he querido hacer esta pequeña demostración del funcionamiento de mi proyecto.</p>
-        <p>En esta página web podréis realizar la búsqueda de un producto perteneciente a tiendas de muebles y decoración.</p>
-        <p>No os molesto más con introducciones... ¡probadlo!</p>
-        <p>En caso de cualquier error, problema, o duda, estaré encantada de atenderos a través del siguiente correo: <a href="mailto:correo@gmail.com">marina25@correo.ugr.es</a></p>
+    <div class="intro-wrapper">
+        <div class="intro">
+            <h2>¡Bienvenid@ a mi Trabajo Fin de Grado!</h2>
+            <p>Me presento, soy Marina Ruiz Palomino y he querido hacer esta pequeña demostración del funcionamiento de mi proyecto.</p>
+            <p>En esta página web podréis realizar la búsqueda de un producto perteneciente a tiendas de muebles y decoración.</p>
+            <p>No os molesto más con introducciones... ¡probadlo!</p>
+            <p>En caso de cualquier error, problema, o duda, estaré encantada de atenderos a través del siguiente correo: <a href="mailto:correo@gmail.com">marina25@correo.ugr.es</a></p>
+        </div>
+        <img class="intro-image" src="{{ url_for('static', filename='Imagen_app.png') }}" alt="Icono">
     </div>
 
     <div class="busqueda-container">
@@ -52,6 +90,10 @@
                 <input type="text" id="producto" name="producto" required style="width: 100%; max-width: 400px; padding: 8px; font-size: 1em;"/>
             </div>
             <button type="submit" style="font-size: 1.2em;">Buscar</button>
+            <div class="checkbox-wrapper">
+                <input type="checkbox" id="desde_cero" name="desde_cero" onchange="mostrarAviso()" />
+                <label for="desde-cero">Iniciar todas las búsquedas desde el principio</label>
+            </div>
         </form>
     </div>
 
