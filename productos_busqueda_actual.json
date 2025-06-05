@@ -1,461 +1,512 @@
 [
     {
-        "id": 1,
-        "nombre": "Pack de 2 sillas de cocina CUSHION blanca",
-        "precio": 89.98,
+        "id": 47,
+        "nombre": "Silla de escritorio de piel sintética STEPH negra",
+        "precio": 169.0,
         "tienda_origen": "Conforama",
-        "url_imagen": "https://media-fd.conforama.es/media/260by271/d77b2db5585051ade7d2a21f7bf73a4050132a44_122392_01_PACK_CUSHION.jpg",
-        "url_acceso": "https://www.conforama.es/pack-de-2-unidades-silla-de-cocina-cushion-blanco",
-        "descripcion": "The image shows two chairs, one with a white cushion and the other with a gray cushion, both made of metal and have a minimalist design. The chairs are placed side by side, and the background is white, which makes the colors of the chairs stand out. The chairs are both identical in design, with the same color and material, and they are positioned side by side, suggesting a close-up view of the chairs. The chairs are not being interacted with, and there are no other objects or people in the image. The image does not contain any text or other discernible objects."
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/99ac093f1ec2d11f7e9abf2ee64d36190663f017_7260_01_Silla_STEPH_FR.jpg",
+        "url_acceso": "https://www.conforama.es/silla-de-escritorio-de-piel-sintetica-steph-negro",
+        "descripcion": "",
+        "atributos": ""
     },
     {
-        "id": 2,
-        "nombre": "Pack de 4 sillas de comedor BELLA color vison",
-        "precio": 179.96,
-        "tienda_origen": "Conforama",
-        "url_imagen": "https://media-fd.conforama.es/media/260by271/c978e20843889febbfe0ca59e57d91cdc60e92d8_122473__1_.jpg",
-        "url_acceso": "https://www.conforama.es/silla-de-comedor-bella-pack-4-unidades-beige",
-        "descripcion": "The furniture in the image appears to be a modern, minimalist dining chair with a sleek, metallic design. The chair has a light gray fabric seat and backrest, with a tufted backrest and a tufted backrest on the back of the chair. The chair has a modern, minimalist design with a minimalist, metallic frame. The chair is positioned against a white background, which makes the colors and design stand out."
-    },
-    {
-        "id": 3,
-        "nombre": "Pack de 4 sillas de comedor LUIGI color negro",
-        "precio": 399.96,
-        "tienda_origen": "Conforama",
-        "url_imagen": "https://media-fd.conforama.es/media/260by271/4c40eaf7c070c7011a04cef7878f2fab9dbcc1df_122429__3_.jpg",
-        "url_acceso": "https://www.conforama.es/silla-de-comedor-luigi-pack-4-unidades-en-ratan-y-negro",
-        "descripcion": "The image shows a modern dining chair with a black frame and a black seat. The chair has a woven backrest and a woven seat, which adds a touch of elegance and sophistication to the design. The chair is made of metal and has a minimalist aesthetic, with a simple, clean design that contrasts with the natural wood of the seat. The chair is positioned against a white background, which makes it stand out and draws attention to its features."
-    },
-    {
-        "id": 4,
-        "nombre": "Pack de 4 sillas LISA color gris",
-        "precio": 99.96,
-        "tienda_origen": "Conforama",
-        "url_imagen": "https://media-fd.conforama.es/media/260by271/afb9f5df7111a7f125d6952fb33f9e669bd589b2_122400.jpg",
-        "url_acceso": "https://www.conforama.es/silla-lisa-pack-4-unidades-tapizada-en-pu-gris",
-        "descripcion": "The image shows a chair with a modern design, featuring a tufted backrest and a simple, minimalist design. The chair is made of a dark gray material, which contrasts with the white background. The chair has a simple, clean look with a black frame and a black seat. The chair is positioned in the center of the image, and there are no other objects or text present in the image."
-    },
-    {
-        "id": 5,
-        "nombre": "Silla comedor giratória gris claro RUBIA",
-        "precio": 139.0,
-        "tienda_origen": "Conforama",
-        "url_imagen": "https://media-fd.conforama.es/media/260by271/5572aee9176b777ccee64db05fe7f48273830705_113633__5_.jpg",
-        "url_acceso": "https://www.conforama.es/silla-comedor-giratoria-rubia-gris",
-        "descripcion": "The furniture in the image appears to be a modern, upholstered chair with a light gray fabric and black legs. The chair has a tufted backrest and a cushioned seat, giving it a modern and stylish look. The legs are black and provide stability and support for the chair. The chair is placed against a white background, which makes it stand out and draws attention to its design."
-    },
-    {
-        "id": 6,
+        "id": 48,
         "nombre": "Silla GANT tapizada en pu gris",
         "precio": 49.7,
         "tienda_origen": "Conforama",
         "url_imagen": "https://media-fd.conforama.es/media/260by271/8a29221646ad47620d9f2a7591c897a745629f49_115420__2_.jpg",
         "url_acceso": "https://www.conforama.es/silla-gant-tapizada-en-pu-gris-",
-        "descripcion": "The furniture in the image appears to be a chair, characterized by its dark gray fabric and wooden legs. The chair is simple in design, with a simple backrest and seat, and is designed to be comfortable and stylish. The chair is made of a durable material, likely fabric, and is likely to be made from a durable material like polyester or a similar fabric. The color of the chair is dark gray, which is a common color for casual, everyday furniture. The wooden legs are light brown, which adds a touch of warmth to the chair. The chair is not very tall, which is typical for a chair, and it is not very wide, which is typical for a dining chair. The chair is not very tall, which is typical for a dining chair, and it is not very wide, which is typical for a dining chair. The chair is not very tall, which is typical for a dining chair, and it is not very wide, which is typical for a dining chair. The chair is not very tall, which is typical for a dining chair, and it is not very wide, which is typical for a dining chair. The chair is not very tall, which is typical for a dining chair, and it is not very wide, which is typical for"
+        "descripcion": "The furniture is a chair with a gray fabric and wooden legs. It has a simple design with a backrest and a seat. The chair is made of fabric and wood, and it has a simple design with a backrest and a seat. The chair is made of fabric and wood, and it has a simple design with a backrest and a seat. The chair is made of fabric and wood, and it has a simple design with a backrest and a seat. The chair is made of fabric and wood, and it has a simple design with a backrest and a seat. The chair is made of fabric and wood, and it has a simple design with a backrest and a seat. The chair is made of fabric and wood, and it has a simple design with a backrest and a seat.",
+        "atributos": "[\"furniture\", \"chair\", \"fabric\", \"legs\", \"design\", \"backrest\", \"seat\", \"wood\", \"gray\", \"wooden\", \"simple\"]"
     },
     {
-        "id": 7,
+        "id": 49,
+        "nombre": "Silla comedor giratória gris claro RUBIA",
+        "precio": 115.0,
+        "tienda_origen": "Conforama",
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/5572aee9176b777ccee64db05fe7f48273830705_113633__5_.jpg",
+        "url_acceso": "https://www.conforama.es/silla-comedor-giratoria-rubia-gris",
+        "descripcion": "The furniture is a light gray tufted chair with black legs. It has a modern design with a tufted backrest and a cushioned seat. The chair is made of fabric and has a modern design. The colors are white, gray, and black. The materials are made of fabric and wood.",
+        "atributos": "[\"furniture\", \"chair\", \"legs\", \"design\", \"backrest\", \"seat\", \"fabric\", \"colors\", \"materials\", \"wood\", \"light\", \"gray\", \"black\", \"modern\", \"cushioned\", \"white\"]"
+    },
+    {
+        "id": 50,
+        "nombre": "Pack de 2 sillas de comedor MINA color gris claro",
+        "precio": 159.98,
+        "tienda_origen": "Conforama",
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/5ce6f41c90601d3f0c80948c2889d8c37c513dec_122402__2_.JPG",
+        "url_acceso": "https://www.conforama.es/silla-de-comedor-mina-pack-2-unidades-tapizada-en-tela-gris-122402",
+        "descripcion": "",
+        "atributos": ""
+    },
+    {
+        "id": 51,
+        "nombre": "Pack de 4 sillas de comedor LUIGI color negro",
+        "precio": 319.96,
+        "tienda_origen": "Conforama",
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/4c40eaf7c070c7011a04cef7878f2fab9dbcc1df_122429__3_.jpg",
+        "url_acceso": "https://www.conforama.es/silla-de-comedor-luigi-pack-4-unidades-en-ratan-y-negro",
+        "descripcion": "The furniture is a modern, minimalist dining chair with a black frame and a black seat. It has a woven backrest and a black cushion. The chair is made of metal and wood. The color is black, and the material is black. The style is modern, and the chair is minimalist.",
+        "atributos": "[\"furniture\", \"minimalist\", \"dining\", \"chair\", \"frame\", \"seat\", \"backrest\", \"cushion\", \"metal\", \"wood\", \"color\", \"material\", \"style\", \"modern\", \"black\", \"woven\", \"minimalist\"]"
+    },
+    {
+        "id": 52,
+        "nombre": "Silla comedor giratoria beige LLAVE",
+        "precio": 79.7,
+        "tienda_origen": "Conforama",
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/91bdee8a14e8c1d32e627cf5959c03e82b56a0b8_113635__5_.jpg",
+        "url_acceso": "https://www.conforama.es/silla-comedor-rotativa-llave-beige",
+        "descripcion": "",
+        "atributos": ""
+    },
+    {
+        "id": 53,
+        "nombre": "Pack de 4 sillas giratórias ALISON color gris oscuro",
+        "precio": 319.96,
+        "tienda_origen": "Conforama",
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/b784476540b34550158f83818a1548d1321ca343_123533_FRENTE.jpg",
+        "url_acceso": "https://www.conforama.es/pack-de-4-sillas-giratorias-alison-gris",
+        "descripcion": "",
+        "atributos": ""
+    },
+    {
+        "id": 54,
+        "nombre": "Pack de 4 sillas de comedor BELLA color vison",
+        "precio": 198.8,
+        "tienda_origen": "Conforama",
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/c978e20843889febbfe0ca59e57d91cdc60e92d8_122473__1_.jpg",
+        "url_acceso": "https://www.conforama.es/silla-de-comedor-bella-pack-4-unidades-beige",
+        "descripcion": "The furniture is a chair with a modern design, featuring a tufted backrest and a high backrest. It is made of metal and has a light gray color. The chair is made of wood and has a cushioned seat. The chair is designed for comfort and is likely to be used for a casual or semi-formal setting.",
+        "atributos": "[\"furniture\", \"chair\", \"design\", \"backrest\", \"metal\", \"color\", \"wood\", \"seat\", \"comfort\", \"setting\", \"modern\", \"high\", \"light\", \"gray\", \"likely\", \"casual\", \"semi\", \"-\", \"formal\"]"
+    },
+    {
+        "id": 55,
+        "nombre": "Silla ALAN tapizada en tela beige",
+        "precio": 69.9,
+        "tienda_origen": "Conforama",
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/96c94727787cfcb59987f2bcbc912f102c97d7b5_118234__2_.jpg",
+        "url_acceso": "https://www.conforama.es/silla-alan-tapizada-en-tela-beige",
+        "descripcion": "",
+        "atributos": ""
+    },
+    {
+        "id": 56,
+        "nombre": "Silla de comedor VELVET terciopelo gris",
+        "precio": 79.9,
+        "tienda_origen": "Conforama",
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/d7d90f835a5d0a8383ab673dcd8f6353eefb406e_760822_01.jpg",
+        "url_acceso": "https://www.conforama.es/silla-velvet-gris",
+        "descripcion": "",
+        "atributos": ""
+    },
+    {
+        "id": 57,
+        "nombre": "Pack de 2 sillas de comedor VIVIAN color amarillo",
+        "precio": 119.8,
+        "tienda_origen": "Conforama",
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/07a258bb2da872a3737e686dc0b849671126bda4_122418__1_.jpg",
+        "url_acceso": "https://www.conforama.es/silla-de-comedor-vivian-pack-2-unidades-tapizada-amarillo",
+        "descripcion": "",
+        "atributos": ""
+    },
+    {
+        "id": 58,
+        "nombre": "Silla de comedor azul RIZOS tapizada en tela",
+        "precio": 129.9,
+        "tienda_origen": "Conforama",
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/39631c4a02eda5a05485999dc31a2f9435c10a55_113626__6_.jpg",
+        "url_acceso": "https://www.conforama.es/silla-de-comedor-rizos-tapizada-en-tela-gris",
+        "descripcion": "",
+        "atributos": ""
+    },
+    {
+        "id": 59,
+        "nombre": "Pack de 2 sillas de comedor SHAUNI color negro",
+        "precio": 139.4,
+        "tienda_origen": "Conforama",
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/b6e57e0e1998913d89c8c32b834c1094d8621dcc_122405__1_.JPG",
+        "url_acceso": "https://www.conforama.es/silla-de-comedor-shauni-pack-2-unidades-tapizada-en-terciopelo-negro",
+        "descripcion": "",
+        "atributos": ""
+    },
+    {
+        "id": 60,
+        "nombre": "Pack de 2 sillas de comedor SOFIA taupe",
+        "precio": 139.98,
+        "tienda_origen": "Conforama",
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/20c25013535aa8b8412216b1b3d1293b64effc7e_124556_01.jpg",
+        "url_acceso": "https://www.conforama.es/pack-de-2-sillas-de-comedor-sofia-beige",
+        "descripcion": "",
+        "atributos": ""
+    },
+    {
+        "id": 61,
+        "nombre": "Pack de 2 sillas de comedor BRIGHTON color beige",
+        "precio": 169.98,
+        "tienda_origen": "Conforama",
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/9167b8bf41fe3212393f8a128972d450bbcf0353_122447_FRENTE.jpg",
+        "url_acceso": "https://www.conforama.es/silla-de-comedor-brighton-pack-2-unidades-tapizada-en-tela-beige",
+        "descripcion": "",
+        "atributos": ""
+    },
+    {
+        "id": 62,
+        "nombre": "Pack de 2 sillas de comedor VERONA color chocolate",
+        "precio": 169.98,
+        "tienda_origen": "Conforama",
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/f882e417388ba4c36f9e52731351e14b76b89554_122444_FRENTE.jpg",
+        "url_acceso": "https://www.conforama.es/silla-de-comedor-polipiel-verona-pack-2-unidades-marron",
+        "descripcion": "",
+        "atributos": ""
+    },
+    {
+        "id": 63,
+        "nombre": "Pack de 2 sillas de comedor VERONA color beige",
+        "precio": 169.98,
+        "tienda_origen": "Conforama",
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/1a8916659fdda912686894ec9a60150bbc8731c0_122446_FRENTE.jpg",
+        "url_acceso": "https://www.conforama.es/silla-de-comedor-verona-pack-2-unidades-tapizada-en-tela-beige",
+        "descripcion": "",
+        "atributos": ""
+    },
+    {
+        "id": 64,
         "nombre": "Pack de 4 sillas ANYA color beige",
         "precio": 198.8,
         "tienda_origen": "Conforama",
         "url_imagen": "https://media-fd.conforama.es/media/260by271/35b1b68f3248a92cd9e29f7df0941999ec9587c3_122422_BEIGE.jpg",
         "url_acceso": "https://www.conforama.es/silla-anya-pack-4-unidades-tapizada-en-tela-beige",
-        "descripcion": "The image shows four chairs arranged in a square, each with a different color and design. The chairs are made of fabric and have a modern, sleek appearance. The color of the chairs is a light beige, and the design is a simple, geometric pattern. The chairs are placed in a square arrangement, with one chair in each corner. The chairs are positioned in a way that they are facing each other, creating a sense of unity and balance."
+        "descripcion": "The furniture is a chair with a beige color and black legs. It has a modern design with a curved backrest and a curved seat. The chair is made of fabric and has a simple, clean look.",
+        "atributos": "[\"furniture\", \"chair\", \"color\", \"legs\", \"design\", \"backrest\", \"seat\", \"fabric\", \"look\", \"beige\", \"black\", \"modern\", \"curved\", \"simple\", \"clean\"]"
     },
     {
-        "id": 8,
-        "nombre": "Pack de 2 sillas MINA color rojo",
-        "precio": 159.98,
+        "id": 65,
+        "nombre": "Pack de 2 sillas de comedor TULIPA color azul",
+        "precio": 199.4,
         "tienda_origen": "Conforama",
-        "url_imagen": "https://media-fd.conforama.es/media/260by271/f98307d01e4a6a0fb98e1dac810f4628e7f6339b_125494_01.jpg",
-        "url_acceso": "https://www.conforama.es/pack-de-2-sillas-de-comedor-mina-rojo",
-        "descripcion": "The furniture appears to be a modern, upholstered chair with a high back and a cushioned seat. The chair is primarily red with a textured fabric that gives it a warm and cozy appearance. The backrest is upholstered in a similar red fabric, and the seat is cushioned with a textured fabric that adds to the chair's comfort. The chair is made of metal and has a black frame, which is typical for modern furniture. The chair is not shown in motion, and there are no visible people or other objects in the image. The chair is positioned against a white background, which makes it stand out and draws attention to its features."
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/d845f116d58f2e739d4262926e0c0d63a11aa64a_122420__2_.jpg",
+        "url_acceso": "https://www.conforama.es/silla-de-comedor-tulipa-pack-2-unidades-tapizada-en-terciopelo-azul",
+        "descripcion": "",
+        "atributos": ""
     },
     {
-        "id": 9,
-        "nombre": "Silla de comedor CLICK color blanco",
-        "precio": 26.9,
+        "id": 66,
+        "nombre": "Silla comedor ADELE color mostaza",
+        "precio": 199.7,
         "tienda_origen": "Conforama",
-        "url_imagen": "https://media-fd.conforama.es/media/260by271/fec1c2f200714bb1cad49c461d048695cd3f7463_399960_01.jpg",
-        "url_acceso": "https://www.conforama.es/silla-de-comedor-click-color-blanco",
-        "descripcion": "The image shows a single, modern, white chair with a minimalist design. The chair is made of metal and has a sleek, polished finish. It has a rectangular shape with a curved backrest and a flat seat. The chair is positioned against a white background, which makes it stand out. The chair is not ornate or ornate, and it does not have any visible decorations or patterns. The chair is clean and free of any visible stains or damage."
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/8343f1c13e4ba20184a1bce0d68e750f111c5fa4_112853__3_.jpg",
+        "url_acceso": "https://www.conforama.es/silla-adele-amarillo",
+        "descripcion": "",
+        "atributos": ""
     },
     {
-        "id": 10,
-        "nombre": "Silla de comedor tapizada en tela RITA color blanco",
-        "precio": 59.9,
+        "id": 67,
+        "nombre": "Pack de 4 sillas NUKA color beige",
+        "precio": 199.96,
         "tienda_origen": "Conforama",
-        "url_imagen": "https://media-fd.conforama.es/media/260by271/67055e3cb49c379c18d66890dd8263fc30a89056_114136_DR_313G_white_1_.JPG",
-        "url_acceso": "https://www.conforama.es/silla-de-comedor-tapizada-en-tela-rita-blanco",
-        "descripcion": "The image shows a chair with a unique design. The chair is made of a light beige fabric, which gives it a soft and comfortable appearance. The seat and backrest are made of a light-colored fabric, and the backrest is also beige. The chair has a curved backrest, which adds a modern and stylish touch to the overall design. The legs of the chair are black, providing a sleek and modern look. The chair is positioned against a white background, which makes it stand out and draws attention to its design."
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/a9996d5fe1e76da26323ba63600c5d91cab71331_125910_01.jpg",
+        "url_acceso": "https://www.conforama.es/pack-de-4-sillas-nuka-beige",
+        "descripcion": "",
+        "atributos": ""
     },
     {
-        "id": 11,
-        "nombre": "Silla LONDON de terciopelo verde",
-        "precio": 39.9,
+        "id": 68,
+        "nombre": "Pack de 2 sillas SILVIA color gris",
+        "precio": 199.98,
         "tienda_origen": "Conforama",
-        "url_imagen": "https://media-fd.conforama.es/media/260by271/0acb8697c2cf593b154b8f9c7dc6248c390a7c67_402679_01.jpg",
-        "url_acceso": "https://www.conforama.es/silla-london-de-terciopelo-verde",
-        "descripcion": "The furniture in the image appears to be a modern, minimalist design with a black, quilted backrest and a black, wooden-framed chair. The chair has a modern, minimalist design with a black, quilted backrest and a black, wooden-framed chair. The chair is placed against a white background, and there are no other objects or text in the image. The chair is the only object in the image, and it is the only object in the image."
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/105ffd3d70cde6aea8281df3f35604db0c65e2fb_126425_1.jpg",
+        "url_acceso": "https://www.conforama.es/pack-de-2-sillas-silvia-gris",
+        "descripcion": "",
+        "atributos": ""
     },
     {
-        "id": 12,
-        "nombre": "Silla en terciopelo LUXURY color negro",
-        "precio": 69.9,
+        "id": 69,
+        "nombre": "Pack de 2 sillas LAUREN color verde",
+        "precio": 199.98,
         "tienda_origen": "Conforama",
-        "url_imagen": "https://media-fd.conforama.es/media/260by271/7706210e3a4eb5a6727bb994eba98545fc999a49_397649_01.jpg",
-        "url_acceso": "https://www.conforama.es/silla-en-terciopelo-luxury-negro",
-        "descripcion": "The furniture in the image appears to be a modern, upholstered chair with a black leather seat and backrest, featuring a tufted design on the backrest. The chair has a modern, minimalist design with a simple, curved backrest and a minimalist, minimalist design on the seat and backrest. The chair is made of black leather and has a black metal frame. The chair is placed against a white background, and there are no other objects or text in the image."
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/d35dd98928296175b9ac62e8010ca85ed9a06dd8_124971__01.jpg",
+        "url_acceso": "https://www.conforama.es/pack-de-2-sillas-lauren-verde",
+        "descripcion": "",
+        "atributos": ""
     },
     {
-        "id": 13,
-        "nombre": "Silla Comedor SIMONE color Naranja",
-        "precio": 24.9,
+        "id": 70,
+        "nombre": "Pack de 2 sillas de comedor ALISSA color verde",
+        "precio": 199.98,
         "tienda_origen": "Conforama",
-        "url_imagen": "https://media-fd.conforama.es/media/260by271/0fb3865a6e325b6e0cc881f5ed1ff6e763f735ef_112821__3_.jpg",
-        "url_acceso": "https://www.conforama.es/silla-simone-naranja",
-        "descripcion": "The image shows a chair with a modern design, featuring a high backrest and a cushioned seat. The chair is made of a smooth, orange-colored material, which contrasts with the white background. The chair has a simple, minimalist design, with a single, flat backrest and a simple, curved seat. The material appears to be a smooth, polished finish, which gives the chair a sleek and modern appearance. The chair is not adorned with any decorative elements, such as intricate patterns or logos, which suggests a focus on functionality and simplicity."
+        "url_imagen": "https://media-fd.conforama.es/media/260by271/8c7b87c41cb7ca7992308714b52b5f52228762dc_122454__1_.jpg",
+        "url_acceso": "https://www.conforama.es/silla-de-comedor-alissa-pack-2-unidades-tapizada-en-tela-verde",
+        "descripcion": "",
+        "atributos": ""
     },
     {
-        "id": 14,
-        "nombre": "Silla de comedor tapizada en tela LISBOA",
-        "precio": 39.99,
-        "tienda_origen": "Conforama",
-        "url_imagen": "https://media-fd.conforama.es/media/260by271/5d24fb747c0195861588629ec4c452d9d409dfca_125653.jpg",
-        "url_acceso": "https://www.conforama.es/silla-de-comedor-tapizada-en-tela-lisboa",
-        "descripcion": "The furniture appears to be a chair, characterized by its sturdy, cushioned seat and backrest, and it is made of a durable, upholstered fabric. The chair is designed with a high backrest, which is a common feature in modern furniture, and it has a sturdy, cushioned seat that provides comfort. The chair is also equipped with black legs, which are standard for modern furniture. The color of the chair is brown, and it is made of a durable, upholstered fabric."
-    },
-    {
-        "id": 15,
-        "nombre": "Silla tela giratoria ELMA gris claro",
-        "precio": 69.9,
-        "tienda_origen": "Conforama",
-        "url_imagen": "https://media-fd.conforama.es/media/260by271/cc0b56047212d2704d2b077a948991ddbcece833_111847__2_.jpg",
-        "url_acceso": "https://www.conforama.es/silla-tela-giratoria-elma-gris",
-        "descripcion": "The furniture in the image appears to be a modern, upholstered chair with a light gray fabric seat and backrest. The chair has a simple, minimalist design with a minimalist frame and a minimalist backrest. The chair is made of fabric and has a minimalist design, with a simple, minimalist frame and a minimalist backrest. The chair is placed against a white background, which makes it stand out. The chair is not functional, but it is aesthetically pleasing and has a modern design."
-    },
-    {
-        "id": 16,
-        "nombre": "Silla de comedor KARLA color negra",
-        "precio": 44.9,
-        "tienda_origen": "Conforama",
-        "url_imagen": "https://media-fd.conforama.es/media/260by271/16cde9600ea805c09138f1de18a5059cdce252be_764380.jpg",
-        "url_acceso": "https://www.conforama.es/silla-de-comedor-karla-color-negra",
-        "descripcion": "The furniture appears to be a modern, minimalist design with a sleek, curved backrest and a curved seat. It has a black leather seat and a wooden backrest, which is curved and provides a comfortable seating experience. The chair is made of light-colored wood, which gives it a warm and inviting appearance. The chair is positioned against a white background, which makes it stand out and draws attention to its design."
-    },
-    {
-        "id": 17,
-        "nombre": "Pack de 4 sillas de comedor tapizadas en tela beige ELKE",
-        "precio": 238.8,
-        "tienda_origen": "Conforama",
-        "url_imagen": "https://media-fd.conforama.es/media/260by271/4b98c05e822cd52e2402dcbadd9720ae002f731a_123967__6_.jpg",
-        "url_acceso": "https://www.conforama.es/pack-de-4-sillas-de-comedor-tapizadas-en-tela-elke-beige",
-        "descripcion": "The furniture appears to be a set of four chairs, each with a beige fabric seat and a metal frame. The chairs are arranged in a square formation, with each chair facing the same direction. The color of the chairs is a light beige, and the metal frame is black. The chairs are not arranged in a specific pattern, but they are all identical in design."
-    },
-    {
-        "id": 18,
-        "nombre": "Silla de comedor SADE II color marrón",
-        "precio": 49.9,
-        "tienda_origen": "Conforama",
-        "url_imagen": "https://media-fd.conforama.es/media/260by271/96774c0e514808981b6581c317f8fdefdf5db100_761235.jpg",
-        "url_acceso": "https://www.conforama.es/silla-de-comedor-sade-ii-color-marron",
-        "descripcion": "The image shows a chair with a light gray fabric seat and backrest, featuring a wooden frame and a light gray cushion. The chair is positioned against a white background, and the chair is the only object in the image. The chair is simple in design, with a minimalist aesthetic. The color of the chair is light gray, and the fabric is light gray. The cushion is light gray, and it is placed on the seat of the chair. The chair is not made of metal or wood, and it has a simple, clean design. The image does not contain any text or other objects. The chair is the only object in the image, and it is the only object in the image."
-    },
-    {
-        "id": 19,
-        "nombre": "Silla sintética MALTA color negro",
-        "precio": 39.9,
-        "tienda_origen": "Conforama",
-        "url_imagen": "https://media-fd.conforama.es/media/260by271/91b51beede38938f3edae2117e57a20d927d7557_379793_01.jpg",
-        "url_acceso": "https://www.conforama.es/silla-de-comedor-malta-negro",
-        "descripcion": "The furniture in the image is a black leather chair with a tufted backrest and silver metal legs. The chair is modern and sleek, with a high backrest that adds a touch of elegance. The black leather is smooth and polished, reflecting the light, and the silver metal legs add a touch of silver to the otherwise black color. The chair is positioned against a white background, which makes it stand out and draws attention to its design."
-    },
-    {
-        "id": 20,
-        "nombre": "Silla de Comedor tapizada en PU DITO",
-        "precio": 39.9,
-        "tienda_origen": "Conforama",
-        "url_imagen": "https://media-fd.conforama.es/media/260by271/1651ecd49b135cd4f78c5c2581cdd4dbc13d3e26_356107.jpg",
-        "url_acceso": "https://www.conforama.es/silla-de-comedor-tapizada-en-pu-dito",
-        "descripcion": "The furniture is a black leather chair with a high backrest and a curved seat. It has a modern design with a sleek, minimalist aesthetic. The chair is made of black leather and has a high backrest, which is designed to provide a comfortable seating experience. The seat is curved, which adds to the chair's sleek and modern look. The chair is also equipped with four legs, which are made of wood and provide a sturdy base for the chair. The chair is not shown in any specific position, but it is clearly designed to be a stylish and functional piece of furniture."
-    },
-    {
-        "id": 21,
-        "nombre": "Silla de comedor CATARINA color gris oscuro",
-        "precio": 49.9,
-        "tienda_origen": "Conforama",
-        "url_imagen": "https://media-fd.conforama.es/media/260by271/1d85de3f76b521d536b1d6e9152e1d034305e061_397955_01.jpg",
-        "url_acceso": "https://www.conforama.es/silla-de-comedor-catarina-gris-397955",
-        "descripcion": "The furniture in the image appears to be a modern, minimalist dining chair with a tufted backrest and a modern, minimalist design. The chair is gray with a tufted backrest and a modern, minimalist design. The chair is made of metal and has a minimalist aesthetic. The chair is placed against a white background, which makes it stand out."
-    },
-    {
-        "id": 22,
-        "nombre": "Silla de comedor COLORS color rosa",
-        "precio": 49.9,
-        "tienda_origen": "Conforama",
-        "url_imagen": "https://media-fd.conforama.es/media/260by271/9763108c3f5a5f5c00d5c5e43ec38ffac329465e_760820_01.jpg",
-        "url_acceso": "https://www.conforama.es/silla-de-comedor-colors-rosa",
-        "descripcion": "The furniture appears to be a modern, minimalist design with a light pink cushion and a simple, minimalist design. The chair is made of metal and has a minimalist aesthetic, with a simple, clean design. The cushion is a soft, plush material that provides comfort and support. The chair is placed against a white background, which makes it stand out and draws attention to its design."
-    },
-    {
-        "id": 23,
-        "nombre": "Silla de comedor CAPRI poliuretano marrón",
-        "precio": 49.9,
-        "tienda_origen": "Conforama",
-        "url_imagen": "https://media-fd.conforama.es/media/260by271/ac9cf266e4e0aeff1181292ecde9bbb7dcd79cd9_406097.jpg",
-        "url_acceso": "https://www.conforama.es/silla-de-comedor-capri-poliuretano-marron",
-        "descripcion": "The furniture in the image appears to be a modern, sleek, and minimalist design. It features a high-back chair with a smooth, cushioned seat and a curved backrest, which is a common feature in modern furniture. The chair is made of a light-colored, possibly beige or brown, leather material, which provides a comfortable and stylish appearance. The chair is also equipped with a metal frame that provides a sturdy and durable base for the seat and backrest. The chair is positioned against a white background, which makes it stand out and draws attention to its design."
-    },
-    {
-        "id": 24,
-        "nombre": "Silla de comedor VERSALLES medara y blanco",
-        "precio": 54.9,
-        "tienda_origen": "Conforama",
-        "url_imagen": "https://media-fd.conforama.es/media/260by271/8991e909cefa73038c2d61be145c871c76963048_371956_01.jpg",
-        "url_acceso": "https://www.conforama.es/silla-de-comedor-versalles-medara-y-blanco",
-        "descripcion": "The image shows a white wooden chair with a natural wood seat and backrest. The chair is simple in design, with a simple backrest and seat, and is painted white. The chair is positioned against a white background, which makes it stand out. The chair is not ornate or decorated, and there are no other objects in the image. The chair is not a piece of furniture, but rather a simple piece of furniture."
-    },
-    {
-        "id": 25,
-        "nombre": "Silla (ADDE)",
+        "id": 71,
+        "nombre": "Silla, blanco (ADDE)",
         "precio": 12.99,
         "tienda_origen": "IKEA",
         "url_imagen": "https://www.ikea.com/es/es/images/products/adde-silla-blanco__0728280_pe736170_s5.jpg?f=xxs",
         "url_acceso": "https://www.ikea.com/es/es/p/adde-silla-blanco-10219178/",
-        "descripcion": "The image shows a white plastic chair with a perforated seat and backrest. The chair is simple in design, with a simple backrest and seat, and a perforated seat and backrest. The chair is white, and the backrest is not visible. The material appears to be plastic, and the color is white. The chair is not made of metal, and it has a simple design. The chair is not designed for use in a home, but it is designed for outdoor use."
+        "descripcion": "The furniture is a white plastic chair with a perforated seat and backrest. It has a simple design with a simple backrest and seat. The chair is made of plastic and is white in color. The material is plastic, and it is made of a lightweight material. The chair is simple in design, with a simple backrest and seat. The chair is made of plastic and is white in color. The chair is simple in design, with a simple backrest and seat. The chair is made of plastic and is white in color. The chair is simple in design, with a simple backrest and seat. The chair is made of plastic and is white in color.",
+        "atributos": "[\"furniture\", \"plastic\", \"chair\", \"seat\", \"backrest\", \"design\", \"color\", \"material\", \"white\", \"perforated\", \"simple\", \"plastic\", \"lightweight\"]"
     },
     {
-        "id": 26,
-        "nombre": "Silla (KARLPETTER)",
+        "id": 72,
+        "nombre": "Silla, Gunnared verde claro/Sefast blanco (KARLPETTER)",
         "precio": 50.0,
         "tienda_origen": "IKEA",
         "url_imagen": "https://www.ikea.com/es/es/images/products/karlpetter-silla-gunnared-verde-claro-sefast-blanco__1106897_pe868859_s5.jpg?f=xxs",
         "url_acceso": "https://www.ikea.com/es/es/p/karlpetter-silla-gunnared-verde-claro-sefast-blanco-s29481447/",
-        "descripcion": "The image shows a chair with a light gray fabric and white metal legs. The chair is designed with a modern, minimalist aesthetic, featuring a simple, clean design with a curved backrest and a curved seat. The chair is positioned against a white background, which makes the colors and details stand out. The chair is not overly detailed, and the colors are muted, giving it a clean and minimalist look."
+        "descripcion": "The furniture is a chair with a light gray fabric and white legs. It has a modern design with a simple and clean look. The chair is made of fabric and has a light gray color. The legs are white and are sturdy. The chair is designed for comfort and is likely to be used for a casual or semi-formal setting.",
+        "atributos": "[\"furniture\", \"chair\", \"fabric\", \"legs\", \"design\", \"look\", \"color\", \"comfort\", \"setting\", \"light\", \"gray\", \"white\", \"modern\", \"simple\", \"clean\", \"sturdy\", \"likely\", \"casual\", \"semi\", \"-\", \"formal\"]"
     },
     {
-        "id": 27,
-        "nombre": "Silla (ÖSTANÖ)",
+        "id": 73,
+        "nombre": "Silla, negro Remmarn/gris oscuro (ÖSTANÖ)",
         "precio": 19.0,
         "tienda_origen": "IKEA",
         "url_imagen": "https://www.ikea.com/es/es/images/products/ostano-silla-negro-remmarn-gris-oscuro__1119282_pe873451_s5.jpg?f=xxs",
         "url_acceso": "https://www.ikea.com/es/es/p/ostano-silla-negro-remmarn-gris-oscuro-20545359/",
-        "descripcion": "The image shows a black chair with a modern design. The chair has a round backrest and a flat seat, which is made of a smooth, black fabric. The backrest is curved, giving the chair a sleek and elegant look. The seat is also black, providing a contrasting color to the backrest. The chair is supported by four black metal legs, which are thin and sturdy, giving it a sturdy and practical look. The chair is placed against a white background, which makes it stand out and draws attention to its design."
+        "descripcion": "The furniture is a chair with a black cushion and black metal legs. It is made of a soft, flexible material and has a simple design. The chair is black and has a simple, modern design. The chair is made of a soft, flexible material and has a simple, modern design. The chair is black and has a simple, modern design. The chair is made of a soft, flexible material and has a simple, modern design. The chair is made of a soft, flexible material and has a simple, modern design.",
+        "atributos": "[\"furniture\", \"chair\", \"cushion\", \"metal\", \"legs\", \"material\", \"design\", \"black\", \"soft\", \"flexible\", \"simple\", \"modern\"]"
     },
     {
-        "id": 28,
-        "nombre": "Silla (NORDMYRA)",
-        "precio": 35.0,
-        "tienda_origen": "IKEA",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/nordmyra-silla-blanco-abedul__1245701_pe921728_s5.jpg?f=xxs",
-        "url_acceso": "https://www.ikea.com/es/es/p/nordmyra-silla-blanco-abedul-20581880/",
-        "descripcion": "The image shows a chair with a curved backrest and a curved seat. The chair is made of light-colored wood, likely beige or light brown, and has a simple design with a curved backrest and seat. The chair is positioned against a white background, which makes the colors of the chair stand out. The chair is not very detailed, but it is clear that it is a simple and functional piece of furniture."
-    },
-    {
-        "id": 29,
-        "nombre": "Silla (TOSSBERG)",
-        "precio": 129.0,
-        "tienda_origen": "IKEA",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/tossberg-silla-metal-blanco-gunnared-beige__1142158_pe881185_s5.jpg?f=xxs",
-        "url_acceso": "https://www.ikea.com/es/es/p/tossberg-silla-metal-blanco-gunnared-beige-80565274/",
-        "descripcion": "The image shows a light-colored, fabric-covered chair with a modern design. The chair has a high backrest and a wide armrest, giving it a sleek and elegant look. The chair is made of a light fabric, likely fabric, and has a minimalist design with a simple, clean look. The chair is positioned against a white background, which makes it stand out and draws attention to its design."
-    },
-    {
-        "id": 30,
-        "nombre": "Silla (GRÖNSTA)",
-        "precio": 59.0,
-        "tienda_origen": "IKEA",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/gronsta-silla-interior-exterior-blanco__1243689_pe920720_s5.jpg?f=xxs",
-        "url_acceso": "https://www.ikea.com/es/es/p/gronsta-silla-interior-exterior-blanco-70519763/",
-        "descripcion": "The image shows a white chair with wooden legs. The chair has a modern design with a simple, clean look. The chair is white, and the wooden legs are light brown. The chair is positioned in the center of the image, and it is facing the viewer. The chair is not being interacted with, and there are no other objects in the image. The image does not contain any text or other objects that could be used to describe the chair."
-    },
-    {
-        "id": 31,
-        "nombre": "Silla (TEODORES)",
+        "id": 74,
+        "nombre": "Silla, blanco (TEODORES)",
         "precio": 30.0,
         "tienda_origen": "IKEA",
         "url_imagen": "https://www.ikea.com/es/es/images/products/teodores-silla-blanco__0727344_pe735616_s5.jpg?f=xxs",
         "url_acceso": "https://www.ikea.com/es/es/p/teodores-silla-blanco-90350937/",
-        "descripcion": "The image shows a white chair with a minimalist design. The chair has a simple, clean, and modern aesthetic, with a white frame and a white seat. The chair is made of a smooth, translucent material that allows for a clear view of the seat and backrest. The chair is positioned in a neutral, white background, which makes it stand out. The chair is not cluttered, and there are no visible decorations or patterns on the seat or backrest. The chair is not in use, and there are no other objects in the image. The image does not contain any text or other objects that could be used to describe the chair's features."
+        "descripcion": "The furniture is a white chair with a simple design and a minimalist color scheme. It has a simple, clean, and modern look with a white color and a simple, clean design. The chair is made of a white plastic material and has a simple, clean design. The chair is white and has a simple, clean design. The chair is made of a white plastic material and has a simple, clean design. The chair is made of a white plastic material and has a simple, clean design. The chair is made of a white plastic material and has a simple, clean design.",
+        "atributos": "[\"furniture\", \"chair\", \"design\", \"color\", \"scheme\", \"plastic\", \"material\", \"white\", \"simple\", \"minimalist\", \"clean\", \"modern\"]"
     },
     {
-        "id": 32,
-        "nombre": "Silla (STEFAN)",
-        "precio": 29.0,
+        "id": 75,
+        "nombre": "Silla, interior/exterior blanco (GRÖNSTA)",
+        "precio": 59.0,
         "tienda_origen": "IKEA",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/stefan-silla-blanco__1322933_pe942332_s5.jpg?f=xxs",
-        "url_acceso": "https://www.ikea.com/es/es/p/stefan-silla-blanco-90339233/",
-        "descripcion": "The image shows a white wooden chair with a simple design. The chair has a simple, rectangular backrest and a simple, horizontal seat. The backrest is made of wood, and the seat is made of a smooth, light-colored material. The chair is simple in design, with no intricate details or decorative elements. The chair is white, which makes it stand out against the white background. The chair is not ornate or decorated, and there are no visible signs of wear or damage. The chair is clean and free of any stains or damage."
+        "url_imagen": "https://www.ikea.com/es/es/images/products/gronsta-silla-interior-exterior-blanco__1243689_pe920720_s5.jpg?f=xxs",
+        "url_acceso": "https://www.ikea.com/es/es/p/gronsta-silla-interior-exterior-blanco-70519763/",
+        "descripcion": "The furniture is a modern, minimalist chair with a white color and wooden legs. It has a simple design with a curved backrest and a curved seat. The chair is made of wood and has a minimalist design. The colors are white, light brown, and beige. The materials are wood and metal.",
+        "atributos": "[\"furniture\", \"chair\", \"color\", \"legs\", \"design\", \"backrest\", \"seat\", \"wood\", \"colors\", \"brown\", \"materials\", \"metal\", \"modern\", \"minimalist\", \"white\", \"wooden\", \"simple\", \"curved\", \"light\", \"beige\"]"
     },
     {
-        "id": 33,
-        "nombre": "Silla (KRYLBO)",
+        "id": 76,
+        "nombre": "Silla, metal blanco/Gunnared beige (TOSSBERG)",
+        "precio": 129.0,
+        "tienda_origen": "IKEA",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/tossberg-silla-metal-blanco-gunnared-beige__1142158_pe881185_s5.jpg?f=xxs",
+        "url_acceso": "https://www.ikea.com/es/es/p/tossberg-silla-metal-blanco-gunnared-beige-80565274/",
+        "descripcion": "The furniture is a light fabric chair with a modern design, featuring a high back and a curved armrests. It is made of a light fabric, possibly fabric or a similar material, with a textured back and armrests. The chair has a modern design with a curved back and armrests, and it is made of light fabric. The chair is light in color, possibly beige or light gray, and it has a modern design with a curved back and armrests. The chair is made of light fabric and is designed to be comfortable and stylish.",
+        "atributos": "[\"furniture\", \"fabric\", \"chair\", \"design\", \"back\", \"armrests\", \"material\", \"color\", \"light\", \"modern\", \"high\", \"curved\", \"similar\", \"beige\", \"gray\", \"comfortable\", \"stylish\"]"
+    },
+    {
+        "id": 77,
+        "nombre": "Silla, blanco/abedul (NORDMYRA)",
+        "precio": 35.0,
+        "tienda_origen": "IKEA",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/nordmyra-silla-blanco-abedul__1245701_pe921728_s5.jpg?f=xxs",
+        "url_acceso": "https://www.ikea.com/es/es/p/nordmyra-silla-blanco-abedul-20581880/",
+        "descripcion": "The furniture is a chair with a curved backrest and a curved seat. It is made of wood and has a light beige color. The chair is made of wood and has a curved backrest. The seat is made of a light beige material. The chair is made of wood and has a curved backrest. The chair is made of wood and has a curved seat. The chair is made of wood and has a curved backrest. The chair is made of wood and has a curved backrest. The chair is made of wood and has a curved backrest. The chair is made of wood and has a curved backrest.",
+        "atributos": "[\"furniture\", \"chair\", \"backrest\", \"seat\", \"wood\", \"color\", \"material\", \"curved\", \"light\", \"beige\"]"
+    },
+    {
+        "id": 78,
+        "nombre": "Silla, Tonerud beige oscuro (KRYLBO)",
         "precio": 75.0,
         "tienda_origen": "IKEA",
         "url_imagen": "https://www.ikea.com/es/es/images/products/krylbo-silla-tonerud-beige-oscuro__1208495_pe908606_s5.jpg?f=xxs",
         "url_acceso": "https://www.ikea.com/es/es/p/krylbo-silla-tonerud-beige-oscuro-60566745/",
-        "descripcion": "The image shows a chair with a beige fabric seat and backrest, featuring a modern design with a minimalist aesthetic. The chair has a minimalist design with a minimalist frame, which is a key feature of the chair. The chair is made of beige fabric, which is a common material used in modern furniture for its durability and comfort. The chair has a minimalist design with a minimalist frame, which is a key feature of the chair. The chair is also equipped with metal legs, which are a common feature in modern furniture for its durability and ease of use."
+        "descripcion": "The furniture is a chair with a light beige color and metal legs. It has a curved backrest and a curved seat. The chair is made of fabric and has a light color. The chair is made of metal and has a light color. The chair is designed for comfort and is made of a light color.",
+        "atributos": "[\"furniture\", \"chair\", \"color\", \"metal\", \"legs\", \"backrest\", \"seat\", \"fabric\", \"comfort\", \"light\", \"beige\", \"curved\"]"
     },
     {
-        "id": 34,
-        "nombre": "Silla (ODGER)",
-        "precio": 69.0,
+        "id": 79,
+        "nombre": "Silla, verde/Tibbleby verde grisáceo (VIHALS)",
+        "precio": 35.0,
         "tienda_origen": "IKEA",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/odger-silla-blanco-beige__0727334_pe735606_s5.jpg?f=xxs",
-        "url_acceso": "https://www.ikea.com/es/es/p/odger-silla-blanco-beige-60359996/",
-        "descripcion": "The image shows a chair with a light beige color and a simple design. The chair has a curved backrest and a simple design with four legs. The chair is made of a light-colored material, likely fabric, and has a smooth finish. The chair is positioned in a room with a white background, and there are no other objects or people in the image. The chair is not being interacted with, and there are no actions taking place. The image does not provide any additional context or information about the chair's purpose or the environment."
+        "url_imagen": "https://www.ikea.com/es/es/images/products/vihals-silla-verde-tibbleby-verde-grisaceo__1370483_pe958737_s5.jpg?f=xxs",
+        "url_acceso": "https://www.ikea.com/es/es/p/vihals-silla-verde-tibbleby-verde-grisaceo-80592767/",
+        "descripcion": "The furniture is a chair with a green fabric seat and backrest, metal legs, and a metal frame. It has a simple design with a simple design. The chair is made of fabric and metal. The color is green. The style is modern and minimalist. The materials are metal and green.",
+        "atributos": "[\"furniture\", \"chair\", \"fabric\", \"seat\", \"backrest\", \"metal\", \"legs\", \"frame\", \"design\", \"color\", \"style\", \"minimalist\", \"materials\", \"green\", \"simple\", \"modern\"]"
     },
     {
-        "id": 35,
-        "nombre": "Silla (BERGMUND)",
+        "id": 80,
+        "nombre": "Silla, blanco (STEFAN)",
+        "precio": 29.0,
+        "tienda_origen": "IKEA",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/stefan-silla-blanco__1322933_pe942332_s5.jpg?f=xxs",
+        "url_acceso": "https://www.ikea.com/es/es/p/stefan-silla-blanco-90339233/",
+        "descripcion": "The furniture is a white chair with a simple design, made of wood, and painted white. It has a simple, functional look with a simple backrest and a simple seat. The chair is made of wood and painted white, with a simple design. The chair is simple in design, with a simple backrest and a simple seat. The chair is made of wood and painted white, with a simple design. The chair is simple in design, with a simple backrest and a simple seat. The chair is made of wood and painted white, with a simple design.",
+        "atributos": "[\"furniture\", \"chair\", \"design\", \"wood\", \"look\", \"backrest\", \"seat\", \"white\", \"simple\", \"functional\"]"
+    },
+    {
+        "id": 81,
+        "nombre": "Silla, blanco/Gunnared gris (BERGMUND)",
         "precio": 75.0,
         "tienda_origen": "IKEA",
         "url_imagen": "https://www.ikea.com/es/es/images/products/bergmund-silla-blanco-gunnared-gris__0926632_pe789415_s5.jpg?f=xxs",
         "url_acceso": "https://www.ikea.com/es/es/p/bergmund-silla-blanco-gunnared-gris-s79384632/",
-        "descripcion": "The image shows a chair with a gray fabric seat and backrest, featuring a simple, modern design with white legs. The chair is positioned against a white background, and the chair is placed in the center of the image. The chair is made of fabric and has a simple, clean aesthetic. The chair is not ornate or high-end, and it appears to be a simple, functional piece of furniture."
+        "descripcion": "The furniture is a chair with a dark gray fabric and white legs. It has a simple design with a backrest and a seat. The chair is made of fabric and has a simple design. The color is dark gray, and the material is fabric. The style is modern and minimalist. The materials are durable and sturdy.",
+        "atributos": "[\"furniture\", \"chair\", \"fabric\", \"legs\", \"design\", \"backrest\", \"seat\", \"color\", \"material\", \"style\", \"minimalist\", \"materials\", \"dark\", \"gray\", \"white\", \"simple\", \"modern\", \"durable\", \"sturdy\"]"
     },
     {
-        "id": 36,
-        "nombre": "Silla (EKEDALEN)",
-        "precio": 49.0,
-        "tienda_origen": "IKEA",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/ekedalen-silla-blanco-orrsta-gris-claro__0728310_pe736178_s5.jpg?f=xxs",
-        "url_acceso": "https://www.ikea.com/es/es/p/ekedalen-silla-blanco-orrsta-gris-claro-60341015/",
-        "descripcion": "The image shows a chair with a white wooden frame and a gray cushion. The chair is simple in design, with a simple backrest and a simple seat. The chair is made of wood and has a simple design, with a curved backrest and a simple seat. The chair is not ornate or decorated, and it appears to be made of a natural wood. The chair is simple in design, with a simple backrest and a simple seat. The chair is made of wood and has a simple design, with a curved backrest and a simple seat. The chair is simple in design, with a simple backrest and a simple seat. The chair is made of wood and has a simple design, with a curved backrest and a simple seat. The chair is simple in design, with a simple backrest and a simple seat. The chair is simple in design, with a simple backrest and a simple seat. The chair is simple in design, with a simple backrest and a simple seat. The chair is simple in design, with a simple backrest and a simple seat. The chair is simple in design, with a simple backrest and a simple seat. The chair is simple in design, with a simple backrest and a simple seat. The chair is"
-    },
-    {
-        "id": 37,
-        "nombre": "Silla (LISABO)",
-        "precio": 49.0,
-        "tienda_origen": "IKEA",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/lisabo-silla-fresno__0786549_pe763015_s5.jpg?f=xxs",
-        "url_acceso": "https://www.ikea.com/es/es/p/lisabo-silla-fresno-00457235/",
-        "descripcion": "The image shows a wooden chair with a light brown color and four legs. The chair has a simple design with a backrest and four legs, which are straight and appear to be made of wood. The chair is positioned in the center of the image, and there is no text or other objects in the background. The chair is not being interacted with, and there are no other objects or people in the image. The image does not provide any information about the setting or the environment, so it is not possible to determine the exact location or context of the chair."
-    },
-    {
-        "id": 38,
-        "nombre": "Silla (SKOGSTA)",
-        "precio": 59.0,
-        "tienda_origen": "IKEA",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/skogsta-silla-acacia__1343430_pe949583_s5.jpg?f=xxs",
-        "url_acceso": "https://www.ikea.com/es/es/p/skogsta-silla-acacia-70544866/",
-        "descripcion": "The image shows a wooden chair with a curved backrest and a simple, natural wood finish. The chair is made of light-colored wood, likely oak, and has a simple, rustic design. The chair is positioned against a white background, which makes it stand out and draws attention to its features."
-    },
-    {
-        "id": 39,
-        "nombre": "Silla (LIDÅS)",
+        "id": 82,
+        "nombre": "Silla, blanco/Sefast blanco (LIDÅS)",
         "precio": 40.0,
         "tienda_origen": "IKEA",
         "url_imagen": "https://www.ikea.com/es/es/images/products/lidas-silla-blanco-sefast-blanco__1106351_pe868690_s5.jpg?f=xxs",
         "url_acceso": "https://www.ikea.com/es/es/p/lidas-silla-blanco-sefast-blanco-s39481381/",
-        "descripcion": "The image shows a white chair with a modern design, featuring a minimalist and minimalist aesthetic. The chair has a minimalist design with a simple, clean, and minimalist color scheme. The chair has a white color, which is often associated with clean lines and simplicity. The chair has a minimalist design with a simple, clean, and minimalist color scheme. The chair is made of metal and has a minimalist design with a simple, clean, and minimalist color scheme. The chair is white, which is often associated with clean lines and simplicity. The chair is made of metal and has a minimalist design with a simple, clean, and minimalist color scheme. The chair is white, which is often associated with clean lines and simplicity. The chair is made of metal and has a minimalist design with a simple, clean, and minimalist color scheme."
+        "descripcion": "The furniture is a modern, minimalist chair with a minimalist design. It is white, and the chair has a minimalist design with a minimalist design. The chair is made of white plastic, and it has a minimalist design with a minimalist design. The chair is made of white plastic, and it has a minimalist design with a minimalist design. The chair is made of white plastic, and it has a minimalist design with a minimalist design.",
+        "atributos": "[\"furniture\", \"chair\", \"design\", \"plastic\", \"modern\", \"minimalist\", \"white\"]"
     },
     {
-        "id": 40,
-        "nombre": "Silla (INGOLF)",
+        "id": 83,
+        "nombre": "Silla, acacia (SKOGSTA)",
+        "precio": 59.0,
+        "tienda_origen": "IKEA",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/skogsta-silla-acacia__1343430_pe949583_s5.jpg?f=xxs",
+        "url_acceso": "https://www.ikea.com/es/es/p/skogsta-silla-acacia-70544866/",
+        "descripcion": "The furniture is a chair made of wood, with a curved backrest and a seat. It has a natural wood finish, and the chair is made of light-colored wood. The chair is simple in design, with a curved backrest and a seat. The chair is made of light-colored wood, and it has a natural wood finish. The chair is simple in design, with a curved backrest and a seat. The chair is made of light-colored wood, and it has a natural wood finish. The chair is simple in design, with a curved backrest and a seat.",
+        "atributos": "[\"furniture\", \"chair\", \"wood\", \"backrest\", \"seat\", \"finish\", \"design\", \"curved\", \"natural\", \"light\", \"colored\", \"simple\"]"
+    },
+    {
+        "id": 84,
+        "nombre": "Silla, fresno (LISABO)",
+        "precio": 49.0,
+        "tienda_origen": "IKEA",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/lisabo-silla-fresno__0786549_pe763015_s5.jpg?f=xxs",
+        "url_acceso": "https://www.ikea.com/es/es/p/lisabo-silla-fresno-00457235/",
+        "descripcion": "The furniture is a wooden chair with a light brown color and a light brown wooden seat. It has four legs and a light brown wooden frame. The chair is made of wood and has a light brown color. The chair is made of wood and has four legs. The chair is light brown in color and has four legs. The chair is made of wood and has four legs. The chair is light brown in color and has four legs. The chair is made of wood and has four legs. The chair is light brown in color and has four legs.",
+        "atributos": "[\"furniture\", \"chair\", \"color\", \"seat\", \"legs\", \"frame\", \"wood\", \"wooden\", \"light\", \"brown\"]"
+    },
+    {
+        "id": 85,
+        "nombre": "Silla, antracita (ODGER)",
+        "precio": 69.0,
+        "tienda_origen": "IKEA",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/odger-silla-antracita__0739669_pe741828_s5.jpg?f=xxs",
+        "url_acceso": "https://www.ikea.com/es/es/p/odger-silla-antracita-50457313/",
+        "descripcion": "The furniture is a modern, minimalist chair with a black color and a simple design. It has a modern, minimalist design with a black color and a simple design. The chair is made of black plastic and has a black color. The chair has a simple design with a black color and a simple design. The chair is made of black plastic and has a black color. The chair is made of black plastic and has a black color. The chair is made of black plastic and has a black color. The chair is made of black plastic and has a black color.",
+        "atributos": "[\"furniture\", \"chair\", \"color\", \"design\", \"plastic\", \"modern\", \"minimalist\", \"black\", \"simple\"]"
+    },
+    {
+        "id": 86,
+        "nombre": "Silla, blanco/Orrsta gris claro (EKEDALEN)",
+        "precio": 49.0,
+        "tienda_origen": "IKEA",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/ekedalen-silla-blanco-orrsta-gris-claro__0728310_pe736178_s5.jpg?f=xxs",
+        "url_acceso": "https://www.ikea.com/es/es/p/ekedalen-silla-blanco-orrsta-gris-claro-60341015/",
+        "descripcion": "The furniture is a chair with a gray cushion. It is made of wood and painted white. The chair is simple and functional, with a simple design. The chair is made of wood and painted white. The chair is simple and functional, with a simple design. The chair is made of wood and painted white. The chair is simple and functional, with a simple design. The chair is made of wood and painted white.",
+        "atributos": "[\"furniture\", \"chair\", \"cushion\", \"wood\", \"design\", \"gray\", \"white\", \"simple\", \"functional\"]"
+    },
+    {
+        "id": 87,
+        "nombre": "Silla, blanco (INGOLF)",
         "precio": 49.0,
         "tienda_origen": "IKEA",
         "url_imagen": "https://www.ikea.com/es/es/images/products/ingolf-silla-blanco__0728152_pe736113_s5.jpg?f=xxs",
         "url_acceso": "https://www.ikea.com/es/es/p/ingolf-silla-blanco-70103250/",
-        "descripcion": "The image shows a white wooden chair with a simple design. The chair has a simple, rectangular backrest and a simple, rectangular seat. The backrest is supported by four legs, which are also white. The seat is also white, and it has a simple, curved backrest. The chair is not ornate or decorated, and it appears to be made of wood. The chair is not in use, and there are no other objects in the image."
+        "descripcion": "The furniture is a white chair with a simple design, made of wood, and painted white. It has a simple, clean look with a simple, clean design. The chair is made of wood and painted white. It has a simple, clean design with a simple, clean design. The chair is made of wood and painted white. It has a simple, clean design with a simple, clean design. The chair is made of wood and painted white. It has a simple, clean design with a simple, clean design.",
+        "atributos": "[\"furniture\", \"chair\", \"design\", \"wood\", \"look\", \"white\", \"simple\", \"clean\"]"
     },
     {
-        "id": 41,
-        "nombre": "Silla con reposabrazos (GRÖNSTA)",
-        "precio": 69.0,
-        "tienda_origen": "IKEA",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/gronsta-silla-con-reposabrazos-blanco__1243810_pe920959_s5.jpg?f=xxs",
-        "url_acceso": "https://www.ikea.com/es/es/p/gronsta-silla-con-reposabrazos-blanco-90557886/",
-        "descripcion": "The image shows a white chair with wooden legs. The chair has a modern design with a simple, clean look. The chair is white, and the wooden legs are light brown. The chair is positioned in the center of the image, and it is facing the viewer. The chair is not being interacted with, and there are no other objects in the image. The image does not contain any text or other objects that could be interpreted as identifying the chair."
-    },
-    {
-        "id": 42,
-        "nombre": "Silla (HAUGA)",
+        "id": 88,
+        "nombre": "Silla, blanco (HAUGA)",
         "precio": 25.0,
         "tienda_origen": "IKEA",
         "url_imagen": "https://www.ikea.com/es/es/images/products/hauga-silla-blanco__1336852_pe947477_s5.jpg?f=xxs",
         "url_acceso": "https://www.ikea.com/es/es/p/hauga-silla-blanco-10576718/",
-        "descripcion": "The image shows a white wooden chair with a simple design, featuring a simple backrest and four legs. The chair is simple in design, with a simple backrest and four legs. The chair is white, and the backrest is not visible. The legs are also white, and they are straight and flat. The chair is not ornate or decorated, and there are no visible decorations or patterns on the chair. The chair is placed against a white background, which makes it stand out."
+        "descripcion": "The furniture is a chair, it is white, it has a simple design, it is made of wood, it is painted, it is made of wood, it is made of wood, it is painted, it is made of wood, it is made of wood, it is painted, it is made of wood, it is made of wood, it is painted, it is made of wood, it is made of wood, it is painted, it is made of wood, it is made of wood, it is painted, it is made of wood, it is made of wood, it is painted, it is made of wood, it is made of wood, it is painted, it is made of wood, it is made of wood, it is painted, it is made of wood, it is made of wood, it is painted, it is made of wood, it is made of wood, it is painted, it is made of wood, it is made of wood, it is painted, it is made of wood, it is made of wood, it is painted, it is made of wood, it is made of wood, it is painted, it is made of wood, it is made of wood, it is painted, it is made of wood,",
+        "atributos": "[\"furniture\", \"chair\", \"design\", \"wood\", \"white\", \"simple\"]"
     },
     {
-        "id": 43,
-        "nombre": "Silla (JANINGE)",
-        "precio": 39.0,
+        "id": 89,
+        "nombre": "Silla con reposabrazos, blanco (GRÖNSTA)",
+        "precio": 69.0,
         "tienda_origen": "IKEA",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/janinge-silla-blanco__0728156_pe736116_s5.jpg?f=xxs",
-        "url_acceso": "https://www.ikea.com/es/es/p/janinge-silla-blanco-00246078/",
-        "descripcion": "The image shows a white plastic chair with a simple design. The chair has a rectangular backrest and a rectangular seat, both of which are white. The backrest is supported by four legs, which are also white. The seat is also white, and it is slightly curved. The chair is not fully visible, but it appears to be made of a durable material that is likely plastic or a similar material. The chair is positioned against a white background, which makes it stand out. The image does not provide any additional information about the chair's material or its purpose."
+        "url_imagen": "https://www.ikea.com/es/es/images/products/gronsta-silla-con-reposabrazos-blanco__1243810_pe920959_s5.jpg?f=xxs",
+        "url_acceso": "https://www.ikea.com/es/es/p/gronsta-silla-con-reposabrazos-blanco-90557886/",
+        "descripcion": "The furniture is a modern, minimalist chair with a white color and wooden legs. It has a simple design with a curved backrest and a curved seat. The chair is made of wood and has a minimalist aesthetic.",
+        "atributos": "[\"furniture\", \"chair\", \"color\", \"legs\", \"design\", \"backrest\", \"seat\", \"wood\", \"aesthetic\", \"modern\", \"minimalist\", \"white\", \"wooden\", \"simple\", \"curved\"]"
     },
     {
-        "id": 44,
-        "nombre": "Silla (TOBIAS)",
+        "id": 90,
+        "nombre": "Silla, transparente/cromado (TOBIAS)",
         "precio": 69.0,
         "tienda_origen": "IKEA",
         "url_imagen": "https://www.ikea.com/es/es/images/products/tobias-silla-transparente-cromado__0727342_pe735614_s5.jpg?f=xxs",
         "url_acceso": "https://www.ikea.com/es/es/p/tobias-silla-transparente-cromado-80349671/",
-        "descripcion": "The image shows a modern, minimalist chair with a transparent backrest and a curved seat. The chair is made of metal and has a sleek, modern design. The backrest is curved and has a minimalist aesthetic, with a smooth, reflective surface that contrasts with the transparent material. The seat is also made of metal and has a curved design, providing a comfortable and stylish seating option. The chair is placed against a white background, which makes it stand out and draws attention to its design."
+        "descripcion": "The furniture is a modern, minimalist chair with a transparent backrest and a transparent seat. It is made of metal and has a sleek, modern design. The chair is made of metal and has a transparent backrest, which allows for a clear view of the seat and backrest. The chair is made of metal and has a transparent backrest, which allows for a clear view of the seat and backrest. The chair is made of metal and has a transparent backrest, which allows for a clear view of the seat and backrest. The chair is made of metal and has a transparent backrest, which allows for a clear view of the seat and backrest. The chair is made of metal and has a transparent backrest, which allows for a clear view of the seat and backrest. The chair is made of metal and has a transparent backrest, which allows for a clear view of the seat and backrest.",
+        "atributos": "[\"furniture\", \"chair\", \"backrest\", \"seat\", \"metal\", \"design\", \"view\", \"modern\", \"minimalist\", \"transparent\", \"sleek\", \"clear\"]"
     },
     {
-        "id": 45,
-        "nombre": "Silla (SKANSNÄS)",
+        "id": 91,
+        "nombre": "Silla, marrón haya (SKANSNÄS)",
         "precio": 89.0,
         "tienda_origen": "IKEA",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/skansnas-silla-haya-clara__1319859_pe941002_s5.jpg?f=xxs",
-        "url_acceso": "https://www.ikea.com/es/es/p/skansnas-silla-haya-clara-40563173/",
-        "descripcion": "The image shows a chair made of light-colored wood, with a woven seat and backrest. The chair has a simple design with a simple frame and a simple backrest. The chair is placed against a white background, which makes the colors of the chair stand out. The chair is not very detailed, but it is simple and functional."
+        "url_imagen": "https://www.ikea.com/es/es/images/products/skansnas-silla-marron-haya__1319860_pe941001_s5.jpg?f=xxs",
+        "url_acceso": "https://www.ikea.com/es/es/p/skansnas-silla-marron-haya-70563242/",
+        "descripcion": "",
+        "atributos": ""
     },
     {
-        "id": 46,
-        "nombre": "Silla (TEODORES)",
-        "precio": 120.0,
+        "id": 92,
+        "nombre": "Silla, Fridtuna beige claro/hueso (TONSTAD)",
+        "precio": 65.0,
         "tienda_origen": "IKEA",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/teodores-silla-blanco__1082708_pe858788_s5.jpg?f=xxs",
-        "url_acceso": "https://www.ikea.com/es/es/p/teodores-silla-blanco-s19399839/",
-        "descripcion": "The image shows four white plastic chairs arranged in a row against a white background. The chairs are made of a smooth, translucent material and have a simple, modern design. The chairs are positioned in a way that they are facing each other, creating a sense of unity and balance. The chairs are not arranged in a specific order, but they are arranged in a way that they are facing each other. The chairs are not in use, and there are no visible people or other objects in the image. The image does not contain any text or other discernible objects. The relative positions of the chairs are such that the chairs are facing each other, creating a sense of unity and balance."
+        "url_imagen": "https://www.ikea.com/es/es/images/products/tonstad-silla-fridtuna-beige-claro-hueso__1447155_pe989004_s5.jpg?f=xxs",
+        "url_acceso": "https://www.ikea.com/es/es/p/tonstad-silla-fridtuna-beige-claro-hueso-s79596262/",
+        "descripcion": "",
+        "atributos": ""
     },
     {
-        "id": 47,
-        "nombre": "Silla (EKEDALEN)",
+        "id": 93,
+        "nombre": "Silla, marrón/Orrsta gris claro (EKEDALEN)",
         "precio": 49.0,
         "tienda_origen": "IKEA",
         "url_imagen": "https://www.ikea.com/es/es/images/products/ekedalen-silla-marron-orrsta-gris-claro__0728287_pe736164_s5.jpg?f=xxs",
         "url_acceso": "https://www.ikea.com/es/es/p/ekedalen-silla-marron-orrsta-gris-claro-80341019/",
-        "descripcion": "The image shows a chair with a light wood finish, featuring a simple design with a backrest and a seat. The chair is made of wood and has a light gray cushion. The chair is positioned against a white background, which makes the colors of the chair stand out. The chair is simple in design, with a simple backrest and seat, and a light gray cushion. The chair is not very ornate, and the colors are not very vibrant."
+        "descripcion": "The furniture is a chair with a light wood finish, made of wood, and has a light gray cushion. It is made of wood and has a light brown color. The chair is made of wood and has a light brown color. The chair is made of wood and has a light brown color. The chair is made of wood and has a light brown color. The chair is made of wood and has a light brown color. The chair is made of wood and has a light brown color.",
+        "atributos": "[\"furniture\", \"chair\", \"wood\", \"finish\", \"cushion\", \"color\", \"light\", \"gray\", \"brown\"]"
     },
     {
-        "id": 48,
-        "nombre": "Silla (EBBALYCKE)",
+        "id": 94,
+        "nombre": "Silla, Idekulla beige (EBBALYCKE)",
         "precio": 55.0,
         "tienda_origen": "IKEA",
         "url_imagen": "https://www.ikea.com/es/es/images/products/ebbalycke-silla-idekulla-beige__1243346_pe920576_s5.jpg?f=xxs",
         "url_acceso": "https://www.ikea.com/es/es/p/ebbalycke-silla-idekulla-beige-40568854/",
-        "descripcion": "The image shows a chair with a light beige cushion and a white backrest. The chair is made of metal and has four black legs. The backrest is curved and has a smooth surface. The cushion is cushioned and has a soft texture. The chair is placed against a white background, which makes the colors of the chair stand out."
+        "descripcion": "The furniture is a chair with a light beige cushion and black metal legs. It has a simple design with a curved backrest and a flat seat. The chair is made of fabric and has a cushioned seat. The chair is made of wood and has a simple design. The chair is made of metal and has a curved backrest. The chair is made of fabric and has a cushioned seat. The chair is made of wood and has a simple design. The chair is made of metal and has a curved backrest. The chair is made of wood and has a simple design. The chair is made of metal and has a curved backrest. The chair is made of wood and has a simple design. The chair is made of metal and has a curved backrest. The chair is made of wood and has a simple design. The chair is made of metal and has a curved backrest. The chair is made of wood and has a simple design. The chair is made of metal and has a curved backrest. The chair is made of wood and has a simple design. The chair is made of metal and has a curved backrest. The chair is made of wood and has a simple design. The chair is made of metal and has a curved backrest",
+        "atributos": "[\"furniture\", \"chair\", \"cushion\", \"metal\", \"legs\", \"design\", \"backrest\", \"seat\", \"fabric\", \"wood\", \"light\", \"beige\", \"black\", \"simple\", \"curved\", \"flat\"]"
     },
     {
-        "id": 49,
-        "nombre": "Silla (LISABO)",
+        "id": 95,
+        "nombre": "Silla, fresno/Tallmyra blanco/negro (LISABO)",
         "precio": 69.0,
         "tienda_origen": "IKEA",
         "url_imagen": "https://www.ikea.com/es/es/images/products/lisabo-silla-fresno-tallmyra-blanco-negro__1243660_pe920705_s5.jpg?f=xxs",
         "url_acceso": "https://www.ikea.com/es/es/p/lisabo-silla-fresno-tallmyra-blanco-negro-30553706/",
-        "descripcion": "The image shows a wooden chair with a light gray cushion. The chair has a simple design with a simple frame and a light wooden seat. The chair is placed against a white background, which makes the colors of the chair stand out. The chair is simple in design, with a simple frame and a simple seat. The cushion is light gray, which contrasts with the light wood of the chair. The chair is not very detailed, but it is simple and functional."
+        "descripcion": "The furniture is a wooden chair with a light gray cushion. It has a light wooden frame and light wooden legs. The chair is made of wood and has a light color. The cushion is made of fabric and is light gray.",
+        "atributos": "[\"furniture\", \"chair\", \"cushion\", \"frame\", \"legs\", \"wood\", \"color\", \"fabric\", \"wooden\", \"light\", \"gray\"]"
     },
     {
-        "id": 50,
-        "nombre": "Silla (TOSSBERG)",
-        "precio": 129.0,
-        "tienda_origen": "IKEA",
-        "url_imagen": "https://www.ikea.com/es/es/images/products/tossberg-silla-metal-negro-gunnared-gris-oscuro__1360003_pe954328_s5.jpg?f=xxs",
-        "url_acceso": "https://www.ikea.com/es/es/p/tossberg-silla-metal-negro-gunnared-gris-oscuro-10582644/",
-        "descripcion": "The image shows a modern, upholstered chair with a gray fabric seat and backrest, featuring a curved backrest and a high backrest. The chair has a modern, minimalist design with a minimalist, geometric backrest and a minimalist, geometric backrest. The chair is made of metal and has a minimalist, geometric design. The chair is placed against a white background, and there are no other objects in the image."
-    },
-    {
-        "id": 51,
-        "nombre": "Silla (LUSTEBO)",
+        "id": 96,
+        "nombre": "Silla, Viarp beige/marrón (LUSTEBO)",
         "precio": 79.0,
         "tienda_origen": "IKEA",
         "url_imagen": "https://www.ikea.com/es/es/images/products/lustebo-silla-viarp-beige-marron__1243646_pe920696_s5.jpg?f=xxs",
         "url_acceso": "https://www.ikea.com/es/es/p/lustebo-silla-viarp-beige-marron-90534461/",
-        "descripcion": "The image shows a chair with a light gray fabric seat and backrest, featuring a modern design with a metallic frame. The chair is positioned against a white background, and the chair is placed in the center of the image. The chair has a simple, clean design with a minimalist aesthetic. The material of the chair is not specified, but it is likely made of a lightweight, durable material such as fabric or a synthetic material. The chair is not functional, but it is aesthetically pleasing and appears to be designed for comfort and style."
+        "descripcion": "The furniture is a chair with a light gray fabric and metal legs. It has a simple design with a curved backrest and a flat seat. The chair is made of fabric and metal, and it has a simple design with a curved backrest and a flat seat. The chair is made of fabric and metal, and it has a simple design with a curved backrest and a flat seat. The chair is made of fabric and metal, and it has a simple design with a curved backrest and a flat seat. The chair is made of fabric and metal, and it has a simple design with a curved backrest and a flat seat.",
+        "atributos": "[\"furniture\", \"chair\", \"fabric\", \"metal\", \"legs\", \"design\", \"backrest\", \"seat\", \"light\", \"gray\", \"simple\", \"curved\", \"flat\"]"
+    },
+    {
+        "id": 97,
+        "nombre": "Silla, metal negro/Gunnared gris oscuro (TOSSBERG)",
+        "precio": 129.0,
+        "tienda_origen": "IKEA",
+        "url_imagen": "https://www.ikea.com/es/es/images/products/tossberg-silla-metal-negro-gunnared-gris-oscuro__1360003_pe954328_s5.jpg?f=xxs",
+        "url_acceso": "https://www.ikea.com/es/es/p/tossberg-silla-metal-negro-gunnared-gris-oscuro-10582644/",
+        "descripcion": "The furniture is a modern, upholstered chair with a modern, upholstered chair. It is made of fabric and has a modern, upholstered chair. The chair is upholstered in a textured fabric, and it has a modern, upholstered chair. The chair is upholstered in a textured fabric, and it has a modern, upholstered chair. The chair is upholstered in a textured fabric, and it has a modern, upholstered chair. The chair is upholstered in a textured fabric, and it has a modern, upholstered chair. The chair is upholstered in a textured fabric, and it has a modern, upholstered chair. The chair is upholstered in a textured fabric, and it has a modern, upholstered chair. The chair is upholstered in a textured fabric, and it has a modern, upholstered chair. The chair is upholstered in a textured fabric, and it has a modern, upholstered chair. The chair is upholstered in a textured fabric, and it has a modern, upholstered chair. The chair is",
+        "atributos": "[\"furniture\", \"chair\", \"fabric\", \"modern\", \"upholstered\"]"
     }
 ]

@@ -1,18 +1,60 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Buscar Productos</title>
+    <style>
+
+        .intro {
+            border: 2px solid black;
+            padding: 20px;
+            max-width: 800px;
+            margin: 30px auto 30px 10px;
+        }
+
+        .busqueda-container {
+            max-width: 500px;
+            margin: 100px auto 0 auto;
+            text-align: center;
+            border: 2px solid black;      
+            border-radius: 10px;
+            padding: 20px;                
+        }
+
+        .busqueda-container input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            font-size: 1em;
+            box-sizing: border-box;
+            border: 2px solid black;       
+            border-radius: 10px;            
+            background-color: #e0e0e0;      
+        }
+        
+    </style>
 </head>
 <body>
-    <h1>Buscar Producto</h1>
 
-    <!-- Formulario para buscar productos -->
-    <form action="/buscar" method="post">
-        <label for="producto">¿Qué producto deseas buscar?</label>
-        <input type="text" id="producto" name="producto" required>
-        <button type="submit">Buscar</button>
-    </form>
+    <div class="intro">
+        <h2>¡Bienvenid@ a mi Trabajo Fin de Grado!</h2>
+        <p>Me presento, soy Marina Ruiz Palomino y he querido hacer esta pequeña demostración del funcionamiento de mi proyecto.</p>
+        <p>En esta página web podréis realizar la búsqueda de un producto perteneciente a tiendas de muebles y decoración.</p>
+        <p>No os molesto más con introducciones... ¡probadlo!</p>
+        <p>En caso de cualquier error, problema, o duda, estaré encantada de atenderos a través del siguiente correo: <a href="mailto:correo@gmail.com">marina25@correo.ugr.es</a></p>
+    </div>
+
+    <div class="busqueda-container">
+        <h1>Buscar Producto</h1>
+        <form action="/buscar" method="post">
+            <label for="producto" style="font-size: 1.5em; display: block; margin-bottom: 20px;">¿Qué producto deseas buscar?</label>
+            <div class="input-wrapper" style="margin-bottom: 15px;">
+                <input type="text" id="producto" name="producto" required style="width: 100%; max-width: 400px; padding: 8px; font-size: 1em;"/>
+            </div>
+            <button type="submit" style="font-size: 1.2em;">Buscar</button>
+        </form>
+    </div>
+
 </body>
 </html>
+

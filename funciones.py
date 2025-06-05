@@ -18,7 +18,8 @@ def crear_tablas(conn):
                             url_imagen TEXT,
                             tienda_origen TEXT NOT NULL, 
                             url_acceso TEXT NOT NULL,
-                            descripcion TEXT)""")
+                            descripcion TEXT,
+                            atributos TEXT)""")
 
     #TABLA BUSQUEDAS
     cursor.execute(""" CREATE TABLE IF NOT EXISTS busquedas (
@@ -89,8 +90,8 @@ def insertar_productos(conn, termino):
         precio_limpio = limpiar_precio(producto["precio"])
 
         #Insertamos los productos en la tabla correspondiente
-        cursor.execute("""INSERT OR IGNORE INTO productos (nombre, precio, url_imagen, tienda_origen, url_acceso, descripcion) VALUES (?, ?, ?, ?, ?, ?)""", 
-                          (producto["nombre"], precio_limpio, producto["url_imagen"], producto["tienda_origen"], producto["url_acceso"], ''))
+        cursor.execute("""INSERT OR IGNORE INTO productos (nombre, precio, url_imagen, tienda_origen, url_acceso, descripcion, atributos) VALUES (?, ?, ?, ?, ?, ?, ?)""", 
+                          (producto["nombre"], precio_limpio, producto["url_imagen"], producto["tienda_origen"], producto["url_acceso"], '', ''))
 
 
         #Obtenemos el id del producto
@@ -124,7 +125,7 @@ def buscar_en_bd(conn, termino, visualizacion = False):
 
         #Buscamos los productos asociados, obteniendo el id de busqueda (que coincida en la tabla busquedas y en la tabla productos_busquedas), 
         #obteniendo el id de producto (que coincida en la tabla productos_busquedas y en la tabla productos), y con ese id obtenemos el listado con los diferentes productos
-        cursor.execute(""" SELECT productos.id, productos.nombre, productos.precio, productos.tienda_origen, productos.url_imagen, productos.url_acceso, productos.descripcion
+        cursor.execute(""" SELECT productos.id, productos.nombre, productos.precio, productos.tienda_origen, productos.url_imagen, productos.url_acceso, productos.descripcion, productos.atributos
                            FROM productos
                            JOIN busquedas_productos ON productos.id = busquedas_productos.producto_id
                            WHERE busquedas_productos.busqueda_id = ? """, (busqueda_id,))
@@ -144,7 +145,8 @@ def buscar_en_bd(conn, termino, visualizacion = False):
                     'tienda_origen': producto[3],
                     'url_imagen': producto[4],
                     'url_acceso': producto[5],
-                    'descripcion': producto[6]
+                    'descripcion': producto[6],
+                    'atributos': producto[7]
                 }
                 productos_dict.append(producto_dict)
 
@@ -219,32 +221,54 @@ def busqueda(conn, termino_busqueda, visualizacion = True, borra_tablas = False)
     return resultados
 
 
-def filtrar_productos_por_precio(productos):
-    productos_ordenados = sorted(productos, key=lambda x: x['precio'])
-
-    # for p in productos_ordenados:
-    #     print(f"{p['nombre']} ) {p['precio']}")
-    return productos_ordenados
-        
-
 def insertar_descripcion(conn):
     cursor = conn.cursor()
 
-    descripciones = cargar_productos_json("descripciones.json")
+    descripciones = cargar_productos_json("productos_procesados.json")
 
     # Recorrer las descripciones y actualizar los productos en la base de datos
     for prod in descripciones:
         url = prod["url"]
         descripcion = prod["descripcion"]
+        atributos = prod.get("atributos", [])
 
+        # Asegúrate de que 'atributos' sea una lista válida antes de guardar
+        if isinstance(atributos, str):
+            try:
+                atributos = json.loads(atributos)
+            except:
+                atributos = []
+
+        # Convertir la lista de atributos a string JSON
+        atributos_str = json.dumps(atributos, ensure_ascii=False)
+        
         # Actualizar la tabla productos con la descripción donde coincida la url_imagen
         cursor.execute("""
             UPDATE productos
-            SET descripcion = ?
+            SET descripcion = ?, atributos = ?
             WHERE url_imagen = ?
-        """, (descripcion, url))
+        """, (descripcion, atributos_str, url))
 
     # Guardar los cambios y cerrar la conexión
     conn.commit()
 
-    print("Base de datos actualizada con las descripciones.")
+    print("Base de datos actualizada con las descripciones y atributos.")
+
+
+def filtrar_productos_por_precio(productos, descendente):
+    productos_ordenados = sorted(productos, key=lambda x: x['precio'], reverse=descendente)
+   
+    # for p in productos_ordenados:
+    #     print(f"{p['nombre']} ) {p['precio']}")
+    return productos_ordenados
+
+def filtrar_productos_por_tienda(productos, tiendas_seleccionadas):
+    productos_tienda = []
+    for prod in productos:
+        if prod['tienda_origen'] in tiendas_seleccionadas:
+            productos_tienda.append(prod)
+    
+    return productos_tienda
+    
+
+

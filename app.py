@@ -8,24 +8,28 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    # Renderiza el formulario para buscar productos
+    #Renderizamos la plantilla inicial para buscar productos
     return render_template("index.html")
 
-@app.route("/buscar", methods=["POST"])
+@app.route("/buscar", methods=["GET","POST"])
 def buscar():
     # producto = request.form["producto"]
     # print(f"PRODUCTO == {producto}")
-    if request.is_json:
-        data = request.get_json()
-        producto = data.get("producto")
-    else:
-        producto = request.form.get("producto")
 
+    if request.method == "POST":
+        producto = request.form.get("producto")
+        filtro_precio = request.form.get("filtro_precio")
+        tiendas_seleccionadas = request.form.get("tiendas")
+    else:
+        producto = request.args.get("producto")
+        filtro_precio = request.args.get("filtro_precio") 
+        tiendas_seleccionadas = request.args.getlist("tiendas")
+    
     #Nos conectamos a nuestra base de datos de SQLite
     conn = sqlite3.connect("base_datos.db")
     #cursor = conn.cursor()
 
-    busqueda(conn, producto, False, True)
+    busqueda(conn, producto, False, False)
 
     #Visualizamos las tablas creadas
     #visualizar_tablas(cursor)
@@ -36,13 +40,28 @@ def buscar():
     with open("productos_busqueda_actual.json", "r", encoding="utf-8") as file:
         resultados = json.load(file)
 
-    productos_ordenados = filtrar_productos_por_precio(resultados)
-    
-    # Renderizar la plantilla y pasar los resultados a la plantilla
-    if not request.is_json:
-        return render_template("resultados.html", resultados=productos_ordenados)
+    #Por defecto seleccionamos los productos de todas las tiendas
+    productos_tienda = resultados
 
-    # Si la petición viene de Android, devolver JSON
+    #Aplicamos el filtro de tiendas
+    if tiendas_seleccionadas:
+        productos_tienda = filtrar_productos_por_tienda(resultados, tiendas_seleccionadas)
+
+    #Por defecto ordenamos los productos de menor a mayor precio
+    productos_ordenados = filtrar_productos_por_precio(productos_tienda, False)
+
+    #Aplicamos el filtro de precio
+    if filtro_precio:
+        if(filtro_precio == "asc"):
+            productos_ordenados = filtrar_productos_por_precio(productos_tienda, False)
+        else:
+            productos_ordenados = filtrar_productos_por_precio(productos_tienda, True)
+
+    #Renderizamos la plantilla y le pasamos los productos
+    if not request.is_json:
+        return render_template("resultados.html", resultados = productos_ordenados, producto = producto, filtro_precio = filtro_precio, tiendas_seleccionadas = tiendas_seleccionadas)
+
+    #Si la petición viene de Android, devolvemos los productos en formato JSON
     return jsonify(productos_ordenados)
 
 if __name__ == "__main__":
