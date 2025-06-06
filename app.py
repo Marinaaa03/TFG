@@ -17,15 +17,23 @@ def buscar():
     # print(f"PRODUCTO == {producto}")
 
     if request.method == "POST":
-        producto = request.form.get("producto")
-        filtro_precio = request.form.get("filtro_precio")
-        tiendas_seleccionadas = request.form.get("tiendas")
-        desde_cero = 'desde_cero' in request.form
-    else:
+        if request.is_json:
+            data = request.get_json(silent=True) or {}
+            producto = data.get("producto")
+            filtro_precio = data.get("filtro_precio")
+            tiendas_seleccionadas = data.get("tiendas") or []
+            desde_cero = data.get("desde_cero", False)
+        else:
+            producto = request.form.get("producto")
+            filtro_precio = request.form.get("filtro_precio")
+            tiendas_seleccionadas = request.form.getlist("tiendas")  
+            desde_cero = 'desde_cero' in request.form
+    else:  
         producto = request.args.get("producto")
-        filtro_precio = request.args.get("filtro_precio") 
+        filtro_precio = request.args.get("filtro_precio")
         tiendas_seleccionadas = request.args.getlist("tiendas")
-        desde_cero = 'desde_cero' in request.args
+        desde_cero = request.args.get("desde_cero") == 'true'
+
     
     #Nos conectamos a nuestra base de datos de SQLite
     conn = sqlite3.connect("base_datos.db")
