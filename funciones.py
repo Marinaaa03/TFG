@@ -1,5 +1,5 @@
 import json
-from web_scrapping import *
+from web_scraping import *
 
 #Función para cargar productos desde un archivo JSON
 def cargar_productos_json(nombre_archivo):
@@ -214,7 +214,7 @@ def busqueda(conn, termino_busqueda, visualizacion = True, borra_tablas = False)
     #En caso de que no haya coincidencias llevamos a cabo web scrapping e introducimos los resultados en nuestra base de datos
     if(resultados == None):
         print(f"Realizando la búsqueda de {termino_busqueda}")
-        web_scrapping_global(termino_busqueda)
+        web_scraping_global(termino_busqueda)
         insertar_productos(conn, termino_busqueda)
     
         #Visualizamos los resultados

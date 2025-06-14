@@ -7,7 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 
 
-def web_scrapping_conforama_tipo1(busqueda):
+def web_scraping_conforama_tipo1(busqueda):
 
     #Configuramos Selenium
     options = Options()
@@ -84,7 +84,7 @@ def web_scrapping_conforama_tipo1(busqueda):
 
 
 
-def web_scrapping_conforama_tipo2(busqueda):
+def web_scraping_conforama_tipo2(busqueda):
 
     #Configuramos Selenium
     options = Options()
@@ -171,5 +171,5 @@ def web_scrapping_conforama_tipo2(busqueda):
     return resultados
 
 # if __name__ == "__main__":
-#     web_scrapping_conforama_tipo1("mesa salón")
-#     web_scrapping_conforama_tipo2("percha")
+#     web_scraping_conforama_tipo1("mesa salón")
+#     web_scraping_conforama_tipo2("percha")

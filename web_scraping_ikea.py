@@ -7,7 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 
 
-def web_scrapping_ikea(busqueda):
+def web_scraping_ikea(busqueda):
    
     #Configuramos Selenium
     options = Options()
@@ -102,4 +102,4 @@ def web_scrapping_ikea(busqueda):
     return resultados
 
 # if __name__ == "__main__":
-#     web_scrapping_ikea("silla")
+#     web_scraping_ikea("silla")

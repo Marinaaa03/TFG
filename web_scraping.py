@@ -1,19 +1,19 @@
-from web_scrapping_ikea import *
-from web_scrapping_conforama import *
+from web_scraping_ikea import *
+from web_scraping_conforama import *
 import json
 
-def web_scrapping_global(producto):
+def web_scraping_global(producto):
     MAX_INTENTOS = 3
     num_intentos = 0
 
     while num_intentos < MAX_INTENTOS:
         #Obtenemos los resultados del producto en diferentes tiendas
-        resultados = web_scrapping_conforama_tipo2(producto)
+        resultados = web_scraping_conforama_tipo2(producto)
 
         if resultados:
             break
 
-        resultados = web_scrapping_conforama_tipo1(producto)
+        resultados = web_scraping_conforama_tipo1(producto)
 
         if resultados:
             break
@@ -24,7 +24,7 @@ def web_scrapping_global(producto):
     if (resultados == None):
         resultados = []
         
-    resultados += web_scrapping_ikea(producto)
+    resultados += web_scraping_ikea(producto)
 
 
     #Escribimos los cambios en el archivo json
@@ -36,7 +36,7 @@ def web_scrapping_global(producto):
 
 
 # if __name__ == "__main__":
-#      web_scrapping_global("mesa")
+#      web_scraping_global("mesa")
 #     termino_busqueda = "armario"
 
 #     #Nos conectamos a nuestra base de datos de SQLite
